@@ -43,7 +43,7 @@ div#banner{
     position: relative;
     margin: auto;
     margin-top: -0.5em;
-    background-image: url(Images/banner.png);
+    background-image: url(../images/banner.png);
     width: 851px;
     height: 302px;
 }
@@ -123,7 +123,7 @@ nav li:hover .submenu{
 .bienvenue{
     position: relative;
     margin: auto;
-    background-image:url("Images/Welcome.png");
+    background-image:url("../images/Welcome.png");
     width: 400px;
     height: 93px;
 }
@@ -139,7 +139,7 @@ nav li:hover .submenu{
 }
 
 .imgPers{
-    background-image: url(Images/Ackman_Quete.png);
+    background-image: url('../images/Ackman_Quete.png');
     margin: auto;
     width: 184px;
     height: 50px;
@@ -160,7 +160,7 @@ nav li:hover .submenu{
     margin-right: 0em;
 }
 
-th{
+td{
     text-align: center;   
 }
  
@@ -171,7 +171,7 @@ th{
     width: 90%;
     padding:5px;
 }
-.quetes th {
+.quetes td, .quetes th {
     font-family: monospace;
     border: thin solid #4C4940;
     border-style: solid;
@@ -180,6 +180,7 @@ th{
     padding: 5px;
     background-color: #EBECE7;
 }
+
 a:link{
     text-decoration: none;
 }
@@ -190,7 +191,7 @@ a:link{
     bottom: 1em;
 }
 
-.quetes th.disabled{
+.quetes td.disabled{
     background: repeating-linear-gradient(
         45deg,
         #ffff,
@@ -241,9 +242,15 @@ input[id^="spoiler"]:checked + label + .spoiler{
 .quetesPers{
     margin: auto;
 }
+
+div.quest-data {
+    display: none;
+    margin: 25px 0;
+}
+
 .ackman{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/5369ce3a9361d9db24af87734e0fc971.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/5369ce3a9361d9db24af87734e0fc971.png);
     margin: auto;
     width: 15px;
     height: 15px;
@@ -251,7 +258,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .baddack{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/4789b3509e9c9a1b37434f6cc444d003.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/4789b3509e9c9a1b37434f6cc444d003.png);
     margin: auto;
     width: 24px;
     height: 16px;
@@ -259,7 +266,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .baddacktb{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/42fbf5b56518d4ab65283afa150cdcc5.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/42fbf5b56518d4ab65283afa150cdcc5.png);
     margin: auto;
     width: 24px;
     height: 16px;   
@@ -267,7 +274,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .bills{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/bc3c0a60f9f3a8f987327239b69c2442.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/bc3c0a60f9f3a8f987327239b69c2442.png);
     margin: auto;
     width: 18px;
     height: 25px; 
@@ -275,7 +282,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .bojack{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/3155246a5dce7b0ccc1952a2dc4d87f5.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/3155246a5dce7b0ccc1952a2dc4d87f5.png);
     margin: auto;
     width: 25px;
     height: 21px; 
@@ -283,7 +290,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .boo{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/e590a0839a33212c701d6ffea27ff84a.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/e590a0839a33212c701d6ffea27ff84a.png);
     margin: auto;
     width: 20px;
     height: 20px; 
@@ -291,7 +298,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .boopetit{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/1b40c22abf5f4bb265c0d7db76186340.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/1b40c22abf5f4bb265c0d7db76186340.png);
     margin: auto;
     width: 13px;
     height: 16px;    
@@ -299,7 +306,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .bora{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/3a8d360c62b83a270cfd5f580bea007f.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/3a8d360c62b83a270cfd5f580bea007f.png);
     margin: auto;
     width: 25px;
     height: 20px;
@@ -307,7 +314,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .broly{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/e8c4885a93f8cb328ef49307d783aa00.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/e8c4885a93f8cb328ef49307d783aa00.png);
     margin: auto;
     width: 17px;
     height: 15px;
@@ -315,7 +322,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .bulma{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/de3a8f07cf6e4291d0b2adf84ecc736d.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/de3a8f07cf6e4291d0b2adf84ecc736d.png);
     margin: auto;
     width: 13px;
     height: 15px;
@@ -323,7 +330,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .c17{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/50e548930c79890c965fb4cb854cdb83.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/50e548930c79890c965fb4cb854cdb83.png);
     margin: auto;
     width: 15px;
     height: 17px;
@@ -331,7 +338,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .c17gt{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/77802310f4db3c306e5b6068db3fe65f.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/77802310f4db3c306e5b6068db3fe65f.png);
     margin: auto;
     width: 15px;
     height: 17px;
@@ -339,7 +346,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .c18{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/d08574a6ba3d984ebaff70f7a6f10161.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/d08574a6ba3d984ebaff70f7a6f10161.png);
     margin: auto;
     width: 14px;
     height: 15px;
@@ -347,7 +354,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .cell{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/85e31c000a09027f612b7b17a75938fa.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/85e31c000a09027f612b7b17a75938fa.png);
     margin: auto;
     width: 19px;
     height: 18px;
@@ -356,7 +363,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .blue{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/4e1a73b6f1c7f4eb793d880847b078f3.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/4e1a73b6f1c7f4eb793d880847b078f3.png);
     margin: auto;
     width: 15px;
     height: 15px;
@@ -365,7 +372,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .cooler{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/60f93b2d044b3702de8522df22168aa7.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/60f93b2d044b3702de8522df22168aa7.png);
     margin: auto;
     width: 13px;
     height: 14px;
@@ -373,7 +380,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .dabra{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/ab57387b90d7f0b720640e5c7fc4ccdf.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/ab57387b90d7f0b720640e5c7fc4ccdf.png);
     margin: auto;
     width: 25px;
     height: 20px;
@@ -381,7 +388,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .demigra{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/ba75d70dfd69f940061dc8e2c9322a75.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/ba75d70dfd69f940061dc8e2c9322a75.png);
     margin: auto;
     width: 25px;
     height: 20px;
@@ -389,7 +396,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .dende{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/a1ffc1ba13271f994a9de8b9e2982538.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/a1ffc1ba13271f994a9de8b9e2982538.png);
     margin: auto;
     width: 15px;
     height: 14px;
@@ -397,7 +404,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .dodoria{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/538602407dd57a12d1a72faaed987b8a.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/538602407dd57a12d1a72faaed987b8a.png);
     margin: auto;
     width: 14px;
     height: 13px;
@@ -405,7 +412,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .fermier{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/e0de3127d72b94256d1ab004ae89fa09.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/e0de3127d72b94256d1ab004ae89fa09.png);
     margin: auto;
     width: 15px;
     height: 15px;
@@ -413,7 +420,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .freezer{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/d12fe6739e7ba9a91b0ce5121235a137.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/d12fe6739e7ba9a91b0ce5121235a137.png);
     margin: auto;
     width: 21px;
     height: 15px;
@@ -421,7 +428,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .garlic{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/c0ebf6c38f9c8e8da1351abac677c6ba.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/c0ebf6c38f9c8e8da1351abac677c6ba.png);
     margin: auto;
     width: 25px;
     height: 20px;
@@ -430,7 +437,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .ginyu{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/44b9d378b15f9a4cbd2132b774ab53c2.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/44b9d378b15f9a4cbd2132b774ab53c2.png);
     margin: auto;
     width: 25px;
     height: 20px;
@@ -438,7 +445,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .guldo{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/284245c2b3eafeb8634bb32124b62461.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/284245c2b3eafeb8634bb32124b62461.png);
     margin: auto;
     width: 15px;
     height: 14px;
@@ -446,7 +453,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .jaco{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/1034a1663ca03b7a04dc8c3cfbc70997.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/1034a1663ca03b7a04dc8c3cfbc70997.png);
     margin: auto;
     width: 13px;
     height: 14px;
@@ -454,7 +461,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .janemba{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/2eeea91ca5068f3dddc508c8525e45d0.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/2eeea91ca5068f3dddc508c8525e45d0.png);
     margin: auto;
     width: 25px;
     height: 23px;
@@ -462,7 +469,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .kaioshin{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/16863cb4f4610b7b49653c1a29ec67ad.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/16863cb4f4610b7b49653c1a29ec67ad.png);
     margin: auto;
     width: 25px;
     height: 20px;
@@ -470,7 +477,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .kibito{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/71c05722e731418cf5707e710c385d2f.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/71c05722e731418cf5707e710c385d2f.png);
     margin: auto;
     width: 17px;
     height: 14px;
@@ -478,7 +485,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .krillin{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/9406fc4422e3550c3f2d434041d4ec3b.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/9406fc4422e3550c3f2d434041d4ec3b.png);
     margin: auto;
     width: 25px;
     height: 20px;
@@ -487,7 +494,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .krillinp{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/a56c51f635cc49560f4d915edb5ac4de.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/a56c51f635cc49560f4d915edb5ac4de.png);
     margin: auto;
     width: 25px;
     height: 20px;
@@ -495,7 +502,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .lamp{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/ccf34ec7922dff3228886d9007af0168.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/ccf34ec7922dff3228886d9007af0168.png);
     margin: auto;
     width: 13px;
     height: 16px;
@@ -503,7 +510,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .lanfan{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/123935cccfeee23c4fbe1250f70a5cad.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/123935cccfeee23c4fbe1250f70a5cad.png);
     margin: auto;
     width: 16px;
     height: 16px;
@@ -511,7 +518,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .monaka{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/32ec6879790bcaada1cb8408d747c40f.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/32ec6879790bcaada1cb8408d747c40f.png);
     margin: auto;
     width: 15px;
     height: 14px;
@@ -519,7 +526,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .nail{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/2b01e4defa28fbcecaf54eadb026b835.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/2b01e4defa28fbcecaf54eadb026b835.png);
     margin: auto;
     width: 25px;
     height: 20px;
@@ -527,7 +534,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .nappa{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/ecc83da1e73b7a26c1c278a5d0942cc6.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/ecc83da1e73b7a26c1c278a5d0942cc6.png);
     margin: auto;
     width: 25px;
     height: 20px;
@@ -535,7 +542,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .oobgt{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/c080bcce9b9a97e3840de6b2123ee88e.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/c080bcce9b9a97e3840de6b2123ee88e.png);
     margin: auto;
     width: 15px;
     height: 17px;
@@ -543,7 +550,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .oolong{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/b33ceffb020aef0b6272c0bc76bf2e50.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/b33ceffb020aef0b6272c0bc76bf2e50.png);
     margin: auto;
     width: 19px;
     height: 12px;
@@ -551,7 +558,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .paikuhan{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/d9b16dd3ab42945f1f4d1e99798ec584.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/d9b16dd3ab42945f1f4d1e99798ec584.png);
     margin: auto;
     width: 13px;
     height: 16px;
@@ -559,7 +566,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .pan{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/47a6bc4df33a985f58162fb0659d78fc.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/47a6bc4df33a985f58162fb0659d78fc.png);
     margin: auto;
     width: 25px;
     height: 20px;
@@ -567,7 +574,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .paragus{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/8571a049b9690d965faf0b581767f559.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/8571a049b9690d965faf0b581767f559.png);
     margin: auto;
     width: 17px;
     height: 17px;
@@ -575,7 +582,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .piccolo{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/50e5a4c6fc9454b0abeb24c7d4908d73.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/50e5a4c6fc9454b0abeb24c7d4908d73.png);
     margin: auto;
     width: 25px;
     height: 20px;
@@ -583,7 +590,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .raditz{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/8611a6c3294b42998606440f553c42f6.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/8611a6c3294b42998606440f553c42f6.png);
     margin: auto;
     width: 17px;
     height: 15px;
@@ -591,7 +598,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .recoome{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/ca1c0995d962c5dff2ed491b50a1bcde.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/ca1c0995d962c5dff2ed491b50a1bcde.png);
     margin: auto;
     width: 13px;
     height: 14px;
@@ -599,7 +606,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .paikuhan{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/d9b16dd3ab42945f1f4d1e99798ec584.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/d9b16dd3ab42945f1f4d1e99798ec584.png);
     margin: auto;
     width: 13px;
     height: 16px;
@@ -607,7 +614,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .roivegeta{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/5d0dc6da83a3868f935f1544471fb804.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/5d0dc6da83a3868f935f1544471fb804.png);
     margin: auto;
     width: 20px;
     height: 25px;
@@ -615,7 +622,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .sangohanpapy{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/96b767c4ccc3a13bf2425df5c9e0acff.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/96b767c4ccc3a13bf2425df5c9e0acff.png);
     margin: auto;
     width: 15px;
     height: 18px;
@@ -623,7 +630,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .sangohanadultegt{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/c781a576b07fec8688910999b8dd5dac.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/c781a576b07fec8688910999b8dd5dac.png);
     margin: auto;
     width: 13px;
     height: 16px;
@@ -631,7 +638,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .sangohanadulte{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/c781a576b07fec8688910999b8dd5dac.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/c781a576b07fec8688910999b8dd5dac.png);
     margin: auto;
     width: 13px;
     height: 16px;
@@ -639,7 +646,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .sangohanado{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/3ee49d1197af2054daafa522e4d9afac.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/3ee49d1197af2054daafa522e4d9afac.png);
     margin: auto;
     width: 16px;
     height: 19px;
@@ -647,7 +654,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .sangohanpetit{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/1357241f48dca977108d14734028e6a0.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/1357241f48dca977108d14734028e6a0.png);
     margin: auto;
     width: 22px;
     height: 22px;
@@ -655,7 +662,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .sangohanenfant{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/998f0fc28ddf0e6c0e4520e7f2a37719.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/998f0fc28ddf0e6c0e4520e7f2a37719.png);
     margin: auto;
     width: 25px;
     height: 20px;
@@ -663,7 +670,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .sangoku{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/a9a5738982739daf9f45b00e30b5451f.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/a9a5738982739daf9f45b00e30b5451f.png);
     margin: auto;
     width: 25px;
     height: 16px;
@@ -671,7 +678,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .sangokupetit{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/0a2c82177304a52875bc18db7673add9.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/0a2c82177304a52875bc18db7673add9.png);
     margin: auto;
     width: 25px;
     height: 20px;
@@ -679,7 +686,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .sangoten{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/a8bca38056d5c7fa8bcb679f77530386.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/a8bca38056d5c7fa8bcb679f77530386.png);
     margin: auto;
     width: 25px;
     height: 20px;
@@ -687,7 +694,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .sangotenado{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/145ec74329cc22e58929cfc066052a15.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/145ec74329cc22e58929cfc066052a15.png);
     margin: auto;
     width: 15px;
     height: 17px;
@@ -695,7 +702,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .satan{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/e84e8a295989bfbc3c26cba546717027.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/e84e8a295989bfbc3c26cba546717027.png);
     margin: auto;
     width: 20px;
     height: 25px;
@@ -703,7 +710,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .taopaipai{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/a0ad8e64e7abf39e3e4a169207da4cfb.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/a0ad8e64e7abf39e3e4a169207da4cfb.png);
     margin: auto;
     width: 25px;
     height: 19px;
@@ -711,7 +718,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .tapion{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/22a633ab26a219351111f9c2bd0cf205.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/22a633ab26a219351111f9c2bd0cf205.png);
     margin: auto;
     width: 17px;
     height: 17px;
@@ -719,7 +726,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .tarble{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/39b0f7828a4f69303ceebc350c1415a8.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/39b0f7828a4f69303ceebc350c1415a8.png);
     margin: auto;
     width: 13px;
     height: 15px;
@@ -727,7 +734,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .tenshinhan{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/155ac5fcb6fdecb5915c57492907e0c1.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/155ac5fcb6fdecb5915c57492907e0c1.png);
     margin: auto;
     width: 25px;
     height: 20px;
@@ -735,7 +742,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .thales{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/90b6f951a96b9495573991d13d152f2b.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/90b6f951a96b9495573991d13d152f2b.png);
     margin: auto;
     width: 25px;
     height: 20px;
@@ -743,7 +750,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .toma{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/ca0028ea5b54e993f56e7a866ac8cb81.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/ca0028ea5b54e993f56e7a866ac8cb81.png);
     margin: auto;
     width: 25px;
     height: 21px;
@@ -751,7 +758,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .tortuegeniale{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/733d244b4cda292e8297b3d8754eaead.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/733d244b4cda292e8297b3d8754eaead.png);
     margin: auto;
     width: 25px;
     height: 20px;
@@ -759,7 +766,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .trunksxeno{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/6382e98b87b1e3e885bc62482cf763f9.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/6382e98b87b1e3e885bc62482cf763f9.png);
     margin: auto;
     width: 15px;
     height: 15px;
@@ -767,7 +774,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .trunksdufutur{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/d376840569d88e8c7dd7fb1a5f6bb201.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/d376840569d88e8c7dd7fb1a5f6bb201.png);
     margin: auto;
     width: 15px;
     height: 15px;
@@ -775,7 +782,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .trunkspetit{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/c34becea9c5d7dda3fc239b0153fcb35.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/c34becea9c5d7dda3fc239b0153fcb35.png);
     margin: auto;
     width: 25px;
     height: 20px;
@@ -783,7 +790,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .vasha{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/d3deb230da196eb70a1aa884cc80290c.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/d3deb230da196eb70a1aa884cc80290c.png);
     margin: auto;
     width: 16px;
     height: 15px;
@@ -791,7 +798,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .vegeta{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/fc647672ee98664107813341910a3a41.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/fc647672ee98664107813341910a3a41.png);
     margin: auto;
     width: 15px;
     height: 18px;
@@ -799,7 +806,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .videl{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/f72f2dfaab4acdff1b4cbfaef3696537.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/f72f2dfaab4acdff1b4cbfaef3696537.png);
     margin: auto;
     width: 13px;
     height: 15px;
@@ -807,7 +814,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .whis{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/f082a736ad566c327fc1af1ec97a772a.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/f082a736ad566c327fc1af1ec97a772a.png);
     margin: auto;
     width: 13px;
     height: 18px;
@@ -815,7 +822,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .yamcha{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/3126ad38b8dc257c74b01a893d7f36bc.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/3126ad38b8dc257c74b01a893d7f36bc.png);
     margin: auto;
     width: 21px;
     height: 18px;
@@ -823,7 +830,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
 
 .yamchaado{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/c97c11354b9cba6abb16fad8171a69ce.png);
+    background-image: url(https://www.dragonballdreams.net/../images/2013/profil/mini/c97c11354b9cba6abb16fad8171a69ce.png);
     margin: auto;
     width: 25px;
     height: 20px;

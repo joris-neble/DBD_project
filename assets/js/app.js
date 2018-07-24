@@ -1,7 +1,6 @@
 jQuery(function($){
 
-	$('.quest-title').click(function(e){
-		e.preventDefault();
+	$('.quest-title').click(function(){
 		$(this).next().toggle('hide');
 	});
 

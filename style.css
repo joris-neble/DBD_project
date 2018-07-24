@@ -243,74 +243,74 @@ input[id^="spoiler"]:checked + label + .spoiler{
 }
 .ackman{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/5369ce3a9361d9db24af87734e0fc971.png);
+    background-image: url(Images/Quetes/Ackman.png);
     margin: auto;
-    width: 15px;
-    height: 15px;
+    width: 184px;
+    height: 57px;
 }
 
 .baddack{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/4789b3509e9c9a1b37434f6cc444d003.png);
+    background-image: url(Images/Quetes/Baddack.png);
     margin: auto;
-    width: 24px;
-    height: 16px;
+    width: 184px;
+    height: 57px;
 }
 
 .baddacktb{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/42fbf5b56518d4ab65283afa150cdcc5.png);
+    background-image: url(Images/Quetes/Baddack%20TB.png);
     margin: auto;
-    width: 24px;
-    height: 16px;   
+    width: 184px;
+    height: 57px;   
 }
 
 .bills{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/bc3c0a60f9f3a8f987327239b69c2442.png);
+    background-image: url(Images/Quetes/Bills.png);
     margin: auto;
-    width: 18px;
-    height: 25px; 
+    width: 184px;
+    height: 57px; 
 }
 
 .bojack{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/3155246a5dce7b0ccc1952a2dc4d87f5.png);
+    background-image: url(Images/Quetes/Bojack.png);
     margin: auto;
-    width: 25px;
-    height: 21px; 
+    width: 184px;
+    height: 57px; 
 }
 
 .boo{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/e590a0839a33212c701d6ffea27ff84a.png);
+    background-image: url(Images/Quetes/Boo.png);
     margin: auto;
-    width: 20px;
-    height: 20px; 
+    width: 184px;
+    height: 57px; 
 }
 
 .boopetit{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/1b40c22abf5f4bb265c0d7db76186340.png);
+    background-image: url(Images/Quetes/Boo%20Petit.png);
     margin: auto;
-    width: 13px;
-    height: 16px;    
+    width: 184px;
+    height: 57px;    
 }
 
 .bora{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/3a8d360c62b83a270cfd5f580bea007f.png);
+    background-image: url(Images/Quetes/Bora.png);
     margin: auto;
-    width: 25px;
-    height: 20px;
+    width: 184px;
+    height: 57px;
 }
 
 .broly{
     position: relative;
-    background-image: url(https://www.dragonballdreams.net/images/2013/profil/mini/e8c4885a93f8cb328ef49307d783aa00.png);
+    background-image: url(Images/Quetes/Broly.png);
     margin: auto;
-    width: 17px;
-    height: 15px;
+    width: 184px;
+    height: 57px;
 }
 
 .bulma{

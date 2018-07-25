@@ -173,7 +173,69 @@ nav li:hover .submenu{
     margin: auto;
     background-image:url("../Images/Entrainements.png");
     width: 444px;
-    height: 91px;
+    height: 91px;  
+}
+
+.guerrefevrier{
+    position: relative;
+    margin: auto;
+    background-image:url("../Images/guerreFevrier.png");
+    width: 754px;
+    height: 89px; 
+    
+}
+
+.guerremars{
+    position: relative;
+    margin: auto;
+    background-image:url("../Images/guerreMars.png");
+    width: 754px;
+    height: 89px; 
+    
+}
+
+.guerreavril{
+    position: relative;
+    margin: auto;
+    background-image:url("../Images/guerreAvril.png");
+    width: 754px;
+    height: 89px; 
+    
+}
+
+.guerremai{
+    position: relative;
+    margin: auto;
+    background-image:url("../Images/guerreMai.png");
+    width: 754px;
+    height: 89px; 
+    
+}
+
+.guerrejuin{
+    position: relative;
+    margin: auto;
+    background-image:url("../Images/guerreJuin.png");
+    width: 754px;
+    height: 89px; 
+    
+}
+
+.guerrejuillet{
+    position: relative;
+    margin: auto;
+    background-image:url("../Images/guerrejuillet.png");
+    width: 754px;
+    height: 89px; 
+    
+}
+
+.guerrefevrier{
+    position: relative;
+    margin: auto;
+    background-image:url("../Images/guerreFevrier.png");
+    width: 754px;
+    height: 89px; 
     
 }
 

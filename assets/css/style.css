@@ -128,13 +128,20 @@ nav li:hover .submenu{
     height: 93px;
 }
 
-.test{
+.questPicture{
     position: relative;
     margin: auto;
     background-image:url("../Images/Quetes_Image.png");
     width: 319px;
     height: 91px;
     
+}
+.nouveaute{
+    position: relative;
+    margin: auto;
+    background-image:url("../Images/nouveaut%C3%A9.png");
+    width: 604px;
+    height: 93px;
 }
 .miseenpage{
     background-color: #EBECE7;

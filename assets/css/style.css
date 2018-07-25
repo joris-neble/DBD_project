@@ -123,11 +123,19 @@ nav li:hover .submenu{
 .bienvenue{
     position: relative;
     margin: auto;
-    background-image:url("../images/Welcome.png");
+    background-image:url("../Images/Welcome.png");
     width: 400px;
     height: 93px;
 }
 
+.test{
+    position: relative;
+    margin: auto;
+    background-image:url("../Images/Quetes_Image.png");
+    width: 319px;
+    height: 91px;
+    
+}
 .miseenpage{
     background-color: #EBECE7;
     position: relative;
@@ -141,6 +149,7 @@ nav li:hover .submenu{
 .actuContent{
     margin-left: 2em;
     margin-right: 2em;
+    text-align: right;
 }
 
 .personnage{
@@ -156,6 +165,7 @@ nav li:hover .submenu{
     border: medium solid #4C4940;
     border-collapse: collapse;
     margin: auto;
+    width: 90%;
     text-align: center; 
 }
 .quetes td, .quetes th {

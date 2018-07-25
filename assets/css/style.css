@@ -143,6 +143,56 @@ nav li:hover .submenu{
     width: 604px;
     height: 93px;
 }
+
+.questXeno{
+    position: relative;
+    margin: auto;
+    background-image:url("../Images/quetes_Xenoverse.png");
+    width: 438px;
+    height: 93px;
+}
+
+.debuter{
+    position: relative;
+    margin: auto;
+    background-image:url("../Images/Bien%20d%C3%A9buter.png");
+    width: 319px;
+    height: 91px;
+}
+.boosts{
+    position: relative;
+    margin: auto;
+    background-image:url("../Images/Boosts.png");
+    width: 444px;
+    height: 91px;
+    
+}
+
+.entrainement{
+    position: relative;
+    margin: auto;
+    background-image:url("../Images/Entrainements.png");
+    width: 444px;
+    height: 91px;
+    
+}
+
+.competitions{
+    position: relative;
+    margin: auto;
+    background-image:url("../Images/Competitions.png");
+    width: 444px;
+    height: 91px;
+    
+}
+
+.remerciement{
+    position: relative;
+    left: 0px;
+    background-image:url("../Images/Credits.png");
+    width: 980px;
+    height: 91px;
+}
 .miseenpage{
     background-color: #EBECE7;
     position: relative;

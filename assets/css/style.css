@@ -12,6 +12,17 @@ body{
     padding: 0px;
 }
 
+@font-face {
+    font-family: 'titres';
+    src: url(../policy/Blacksword.otf);
+}
+
+@font-face{
+    font-family:'texte';
+    src: url(../policy/CaviarDreams.ttf);
+    
+}
+
 div#banner, .actualites, nav{
     border-left: 5px solid #4c4940;
     border-right: 5px solid #4c4940;
@@ -34,9 +45,16 @@ h1 {
 }
 
 h3{
-    font-family: "Verdana";
-    color: white;
-    text-shadow: 2px 0 0 red, 0 2px 0 red, 0 -2px 0 red, -2px 0 0 red, 2px 2px 0 red, 2px -2px 0 red, -2px 2px 0 red, -2px -2px 0 red;
+    font-family: "titres";
+    background: -webkit-gradient(linear, left top, left bottom, from(#f75252), to(#9e2c2c));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+br {
+content: "";
+display: block;
+margin-top: 0em;
 }
 
 div#banner{
@@ -66,6 +84,7 @@ nav li{
 nav{
     position: relative;
     margin: auto;
+    font-size: 14px;
     width: 851px;
     background-color: #4C4940;
     
@@ -102,7 +121,7 @@ nav li:hover .submenu{
 
 .submenu li a{
     padding: 5px 30px;
-    font-size: 12px;
+    font-size: 11px;
     color: #efefe0;
     width: 234px;    
 }
@@ -123,11 +142,209 @@ nav li:hover .submenu{
 .bienvenue{
     position: relative;
     margin: auto;
-    background-image:url("../images/Welcome.png");
+    background-image:url("../Images/Welcome.png");
     width: 400px;
     height: 93px;
 }
 
+.questPicture{
+    position: relative;
+    margin: auto;
+    background-image:url("../Images/Quetes_Image.png");
+    width: 319px;
+    height: 91px;
+    
+}
+.nouveaute{
+    position: relative;
+    margin: auto;
+    background-image:url("../Images/nouveaut%C3%A9.png");
+    width: 604px;
+    height: 93px;
+}
+
+.shenronrouge{
+    position: relative;
+    margin: auto;
+    background-image:url("../Images/shenronrouge.png");
+    width: 679px;
+    height: 89px;
+}
+
+.questXeno{
+    position: relative;
+    margin: auto;
+    background-image:url("../Images/quetes_Xenoverse.png");
+    width: 438px;
+    height: 93px;
+}
+
+.debuter{
+    position: relative;
+    margin: auto;
+    background-image:url("../Images/Bien%20d%C3%A9buter.png");
+    width: 319px;
+    height: 91px;
+}
+.boosts{
+    position: relative;
+    margin: auto;
+    background-image:url("../Images/Boosts.png");
+    width: 444px;
+    height: 91px;
+    
+}
+
+.entrainement{
+    position: relative;
+    margin: auto;
+    background-image:url("../Images/Entrainements.png");
+    width: 444px;
+    height: 91px;  
+}
+
+.guerrefevrier{
+    position: relative;
+    margin: auto;
+    background-image:url("../Images/guerreFevrier.png");
+    width: 754px;
+    height: 89px; 
+    
+}
+
+.guerremars{
+    position: relative;
+    margin: auto;
+    background-image:url("../Images/guerreMars.png");
+    width: 754px;
+    height: 89px; 
+    
+}
+
+.guerreavril{
+    position: relative;
+    margin: auto;
+    background-image:url("../Images/guerreAvril.png");
+    width: 754px;
+    height: 89px; 
+    
+}
+
+.guerremai{
+    position: relative;
+    margin: auto;
+    background-image:url("../Images/guerreMai.png");
+    width: 754px;
+    height: 89px; 
+    
+}
+
+.guerrejuin{
+    position: relative;
+    margin: auto;
+    background-image:url("../Images/guerreJuin.png");
+    width: 754px;
+    height: 89px; 
+    
+}
+
+.guerrejuillet{
+    position: relative;
+    margin: auto;
+    background-image:url("../Images/guerrejuillet.png");
+    width: 754px;
+    height: 89px; 
+    
+}
+
+.guerrefevrier{
+    position: relative;
+    margin: auto;
+    background-image:url("../Images/guerreFevrier.png");
+    width: 754px;
+    height: 89px; 
+    
+}
+
+.competitions{
+    position: relative;
+    margin: auto;
+    background-image:url("../Images/Competitions.png");
+    width: 444px;
+    height: 91px;
+    
+}
+
+.lexique{
+    position: relative;
+    margin:auto;
+    background-image: url(../Images/Lexique%20des%20mots.png);
+    width: 416px;
+    height: 91px;
+    
+}
+
+.mhclassique{
+    position: relative;
+    margin:auto;
+    background-image: url(../Images/Principaux_MH.png);
+    width: 444px;
+    height: 91px;
+}
+
+.mhbonus{
+    position: relative;
+    margin:auto;
+    background-image: url(../Images/MH_Bonus.png);
+    width: 444px;
+    height: 91px;   
+}
+
+.prixitem{
+    position: relative;
+    margin:auto;
+    background-image: url(../Images/Prix_des_Items.png);
+    width: 444px;
+    height: 91px;    
+}
+
+.shenron{
+    position: relative;
+    margin:auto;
+    background-image: url(../Images/Shenron.png);
+    width: 600px;
+    height: 91px; 
+}
+
+.supershenron{
+    position: relative;
+    margin:auto;
+    background-image: url(../Images/supershenron.png);
+    width: 795px;
+    height: 93px; 
+}
+
+.planetes{
+    position: relative;
+    margin:auto;
+    background-image: url(../Images/Planetes.png);
+    width: 446px;
+    height: 89px; 
+}
+
+.parrainage{
+    position: relative;
+    margin:auto;
+    background-image: url(../Images/parrainage.png);
+    width: 754px;
+    height: 89px; 
+}
+.remerciement{
+    background-image: url(../Images/Credits2.png);
+    margin: auto;
+    width: 806px;
+    height: 172px;
+}
 .miseenpage{
     background-color: #EBECE7;
     position: relative;
@@ -137,10 +354,17 @@ nav li:hover .submenu{
     border-bottom: 5px solid #4c4940;
 
 }
-
+.voeux{
+    text-align: left;
+    margin-left: 8.5em;
+    
+    
+}
 .actuContent{
     margin-left: 2em;
     margin-right: 2em;
+    font-family: "texte";
+    text-align: justify;
 }
 
 .personnage{
@@ -161,6 +385,7 @@ nav li:hover .submenu{
     border: medium solid #4C4940;
     border-collapse: collapse;
     margin: auto;
+    width: 90%;
     text-align: center; 
 }
 .quetes td, .quetes th {

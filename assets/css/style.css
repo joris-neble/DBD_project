@@ -248,9 +248,50 @@ nav li:hover .submenu{
     
 }
 
+.lexique{
+    position: relative;
+    margin:auto;
+    background-image: url(../Images/Lexique%20des%20mots.png);
+    width: 416px;
+    height: 91px;
+    
+}
+
+.mhclassique{
+    position: relative;
+    margin:auto;
+    background-image: url(../Images/Principaux_MH.png);
+    width: 444px;
+    height: 91px;
+}
+
+.mhbonus{
+    position: relative;
+    margin:auto;
+    background-image: url(../Images/MH_Bonus.png);
+    width: 444px;
+    height: 91px;   
+}
+
+.prixitem{
+    position: relative;
+    margin:auto;
+    background-image: url(../Images/Prix_des_Items.png);
+    width: 444px;
+    height: 91px;    
+}
+
+.shenron{
+    position: relative;
+    margin:auto;
+    background-image: url(../Images/Shenron.png);
+    width: 600px;
+    height: 91px; 
+}
+
 .remerciement{
     position: relative;
-    left: 0px;
+    margin: auto;
     background-image:url("../Images/Credits.png");
     width: 980px;
     height: 91px;

@@ -375,6 +375,15 @@ nav li:hover .submenu{
     margin-left: 0em;
     margin-right: 0em;
 }
+
+#quests {
+    display: none;
+    margin-bottom: 30px;
+}
+
+#quests-title {
+    font-size: 34px;
+}
  
 .quetes {
     border: medium solid #4C4940;
@@ -452,7 +461,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
     margin: auto;
 }
 
-div.quest-data {
+.quest-data {
     display: none;
     margin: 25px 0;
 }
@@ -1035,4 +1044,18 @@ div.quest-data {
     margin: auto;
     width: 184px;
     height: 57px;
+}
+
+#ackman1, #baddack1, #baddack2, #bills1, #bojack1, #boo1, #boo2, #bora1,
+#broly1, #bulma1, #c171, #c172, #c181, #cell1, #blue1, #cooler1, #dabra1, 
+#demigra1, #dende1, #dodoria1, #fermier1, #freezer1, #garlic1, #ginyu1,
+#guldo1, #jaco1, #janemba1, #kaioshin1, #kibito1, #krillin1, #krillin2,
+#lamp1, #lanfan1, #monaka1, #nail1, #nappa1, #oob1, #oolong1, #paikuhan1,
+#pan1, #paragus1, #piccolo1, #raditz1, #recoome1, #roivegeta1, #sangohanpapy1, 
+#sangohanado1, #sangohanadulte1, #sangohanadultegt1, #sangohanenfant1, 
+#sangohanpetit1, #sangoku1, #sangokupetit1, #sangoten1, #sangotenado1,
+#satan1, #taopaipai1, #tapion1, #tarble1, #tenshinhan1, #thales1, #toma1,
+#tortuegeniale1, #trunksxeno1, #trunksdufutur1, #trunkspetit1, #vasha1,
+#vegeta1, #videl1, #whis1, #yamcha1, #yamchaado1 {
+    display: none;
 }

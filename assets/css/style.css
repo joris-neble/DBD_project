@@ -51,12 +51,6 @@ h3{
     -webkit-text-fill-color: transparent;
 }
 
-br {
-content: "";
-display: block;
-margin-top: 0em;
-}
-
 div#banner{
     position: relative;
     margin: auto;
@@ -352,14 +346,80 @@ nav li:hover .submenu{
     margin: auto;
     width: 851px;
     border-bottom: 5px solid #4c4940;
+}
+.alignement{
+    display: inline-block;
+    width: 12em;
+    
+}
 
+.culotte{
+    float: left;
+    background-image: url(../Images/ackman.png);
+    width: 15px;
+    height: 15px;
 }
-.voeux{
-    text-align: left;
-    margin-left: 8.5em;
-    
-    
+
+.zenis{
+    background-image: url(../Images/ackman.png);
+    width: 15px;
+    height: 15px;
 }
+
+.niveauup{
+    float: left;
+    background-image: url(../Images/ackman.png);
+    width: 15px;
+    height:15px;
+}
+
+.gokussj{
+    float: left;
+    margin-right: 6.5em;
+    margin-left: -1.5em;
+    background-image: url(https://www.dragonballdreams.net/images/2013/gifs/perso/gauche/6b46974bf36d580fa5a3a2fc2898dc3b.gif);
+    width: 100px;
+    height: 70px;
+}
+
+.vegetassj{
+    float: left;
+    margin-right: 6.5em;
+    margin-left: -1.5em;
+    background-image: url(https://www.dragonballdreams.net/images/2013/gifs/perso/gauche/3d81f3333667053d21326eea70c488f7.gif);
+    width: 100px;
+    height: 70px;
+}
+
+.gohanssj{
+    float: left;
+    margin-right: 6.5em;
+    margin-left: -1.5em;
+    background-image: url(https://www.dragonballdreams.net/images/2013/gifs/perso/gauche/eb16d583fd97758e4d32ea73d2ca2588.gif);
+    width: 100px;
+    height: 100px;
+}
+
+.tapiongif{
+    float: left;
+    margin-right: 6.5em;
+    margin-left: -1.5em;
+    background-image: url(https://www.dragonballdreams.net/images/2013/gifs/perso/gauche/61bbf1fb1f512daf0316b9c32814b1a2.gif);
+    width: 100px;
+    height: 70px;    
+}
+
+.demonpiccolo{
+    float: left;
+    margin-right: 6.5em;
+    margin-left: -1.5em;
+    background-image: url( https://www.dragonballdreams.net/images/2013/gifs/perso/gauche/c914017d88368ee8a60cb718010d5fa5.gif);
+    width: 100px;
+    height: 70px;
+}
+
+
+
 .actuContent{
     margin-left: 2em;
     margin-right: 2em;

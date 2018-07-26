@@ -1,6 +1,24 @@
 jQuery(function($){
 
 	$('.quest-title').on('click', function(){
+		var divChar = $(this).parent().parent();
+		var questsByChar = $(divChar).find('.quest');
+		var questName = $(this).html();
+
+
+
+		$(questsByChar).each(function(){
+			var currentQuestName = $($(this).children()[0]);
+			var currentQuestData = $($(this).children()[1]);
+
+			if ($(currentQuestName).html() != questName) {
+				if( $(currentQuestData).css('display') == 'block' ) {
+					$(currentQuestData).toggle('show');
+				}
+			}
+		});
+
+
 		$(this).next().toggle('hide');
 	});
 
@@ -77,6 +95,7 @@ jQuery(function($){
 			'trunksdufutur' : 'Trunks du Futur',
 			'trunkspetit' : 'Trunks Petit',
 			'vasha' : 'Vasha',
+			'vegeta' : 'Vegeta',
 			'videl' : 'Videl',
 			'whis': 'Whis',
 			'yamcha' : 'Yamcha',
@@ -105,7 +124,6 @@ jQuery(function($){
 		];
 
 		var de = function(){
-			console.debug(jQuery.inArray(char[charName][0], voyelle));
 			if (jQuery.inArray(char[charName][0], voyelle) == '-1') {
 				return 'de ';
 			} else {

@@ -380,6 +380,10 @@ nav li:hover .submenu{
     display: none;
     margin-bottom: 30px;
 }
+
+#quests-title {
+    font-size: 34px;
+}
  
 .quetes {
     border: medium solid #4C4940;
@@ -457,7 +461,7 @@ input[id^="spoiler"]:checked + label + .spoiler{
     margin: auto;
 }
 
-div.quest-data {
+.quest-data {
     display: none;
     margin: 25px 0;
 }

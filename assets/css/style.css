@@ -12,6 +12,17 @@ body{
     padding: 0px;
 }
 
+@font-face {
+    font-family: 'titres';
+    src: url(../policy/Blacksword.otf);
+}
+
+@font-face{
+    font-family:'texte';
+    src: url(../policy/CaviarDreams.ttf);
+    
+}
+
 div#banner, .actualites, nav{
     border-left: 5px solid #4c4940;
     border-right: 5px solid #4c4940;
@@ -34,9 +45,16 @@ h1 {
 }
 
 h3{
-    font-family: "Verdana";
-    color: white;
-    text-shadow: 2px 0 0 red, 0 2px 0 red, 0 -2px 0 red, -2px 0 0 red, 2px 2px 0 red, 2px -2px 0 red, -2px 2px 0 red, -2px -2px 0 red;
+    font-family: "titres";
+    background: -webkit-gradient(linear, left top, left bottom, from(#f75252), to(#9e2c2c));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+br {
+content: "";
+display: block;
+margin-top: 0em;
 }
 
 div#banner{
@@ -66,6 +84,7 @@ nav li{
 nav{
     position: relative;
     margin: auto;
+    font-size: 14px;
     width: 851px;
     background-color: #4C4940;
     
@@ -102,7 +121,7 @@ nav li:hover .submenu{
 
 .submenu li a{
     padding: 5px 30px;
-    font-size: 12px;
+    font-size: 11px;
     color: #efefe0;
     width: 234px;    
 }
@@ -142,6 +161,14 @@ nav li:hover .submenu{
     background-image:url("../Images/nouveaut%C3%A9.png");
     width: 604px;
     height: 93px;
+}
+
+.shenronrouge{
+    position: relative;
+    margin: auto;
+    background-image:url("../Images/shenronrouge.png");
+    width: 679px;
+    height: 89px;
 }
 
 .questXeno{
@@ -289,12 +316,34 @@ nav li:hover .submenu{
     height: 91px; 
 }
 
-.remerciement{
+.supershenron{
     position: relative;
+    margin:auto;
+    background-image: url(../Images/supershenron.png);
+    width: 795px;
+    height: 93px; 
+}
+
+.planetes{
+    position: relative;
+    margin:auto;
+    background-image: url(../Images/Planetes.png);
+    width: 446px;
+    height: 89px; 
+}
+
+.parrainage{
+    position: relative;
+    margin:auto;
+    background-image: url(../Images/parrainage.png);
+    width: 754px;
+    height: 89px; 
+}
+.remerciement{
+    background-image: url(../Images/Credits2.png);
     margin: auto;
-    background-image:url("../Images/Credits.png");
-    width: 980px;
-    height: 91px;
+    width: 806px;
+    height: 172px;
 }
 .miseenpage{
     background-color: #EBECE7;
@@ -305,11 +354,17 @@ nav li:hover .submenu{
     border-bottom: 5px solid #4c4940;
 
 }
-
+.voeux{
+    text-align: left;
+    margin-left: 8.5em;
+    
+    
+}
 .actuContent{
     margin-left: 2em;
     margin-right: 2em;
-    text-align: right;
+    font-family: "texte";
+    text-align: justify;
 }
 
 .personnage{

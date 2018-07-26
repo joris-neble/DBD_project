@@ -50,7 +50,7 @@ jQuery(function($){
 			'dodoria' : 'Dodoria',
 			'fermer' : 'Fermier',
 			'freezer' : 'Freezer',
-			'Garlic' : 'Garlic',
+			'garlic' : 'Garlic',
 			'ginyu' : 'Ginue',
 			'guldo' : 'Guldo', 
 			'jaco' : 'Jaco',
@@ -153,6 +153,7 @@ jQuery(function($){
 		} else {
 			$(this).html('Masquer toutes les quêtes').addClass('active');
 		}
+
 
 		$('#quests').toggle();
 		$('#quests').find('div').each(function() {

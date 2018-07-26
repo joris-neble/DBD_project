@@ -457,6 +457,21 @@ input[id^="spoiler"]:checked + label + .spoiler{
   padding: 10px;
 }
 
+#display-all-quests {
+    border: 2px solid blue;
+    padding: 15px;
+}
+
+#display-all-quests:hover {
+    background-color: blue;
+    color: white;
+}
+
+#display-all-quests.active {
+    background-color: orange;
+    color: white;
+}
+
 .quetesPers{
     margin: auto;
 }

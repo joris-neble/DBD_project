@@ -46,6 +46,7 @@ h1 {
 
 h3{
     font-family: "titres";
+    text-align: center;
     background: -webkit-gradient(linear, left top, left bottom, from(#f75252), to(#9e2c2c));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -341,84 +342,250 @@ nav li:hover .submenu{
 }
 .miseenpage{
     background-color: #EBECE7;
-    position: relative;
-    text-align: center;
     margin: auto;
     width: 851px;
     border-bottom: 5px solid #4c4940;
-}
-.alignement{
-    display: inline-block;
-    width: 12em;
-    
+    border-left: 5px solid #4c4940;
+    border-right: 5px solid #4c4940;
 }
 
+#wish-list{
+    text-align: left;
+    margin-left: 15em;
+}
+.wish > span{ 
+    padding-bottom: 0px;
+ }
+
+.wish > div{
+    margin-right: 9em;
+}
 .culotte{
-    float: left;
+    float: right;
     background-image: url(../Images/ackman.png);
     width: 15px;
     height: 15px;
 }
 
 .zenis{
-    background-image: url(../Images/ackman.png);
-    width: 15px;
-    height: 15px;
+    float: right;
+    background-image: url(../Images/Goku_SSJ4.png);
+    width: 31px;
+    height: 48px;
 }
 
 .niveauup{
-    float: left;
-    background-image: url(../Images/ackman.png);
-    width: 15px;
-    height:15px;
+    float: right;
+    background-image: url(../Images/Goku_SSJ4.png);
+    width: 31px;
+    height:48px;
 }
 
 .gokussj{
-    float: left;
-    margin-right: 6.5em;
-    margin-left: -1.5em;
-    background-image: url(https://www.dragonballdreams.net/images/2013/gifs/perso/gauche/6b46974bf36d580fa5a3a2fc2898dc3b.gif);
-    width: 100px;
-    height: 70px;
+    float: right;
+    background-image: url(../Images/Goku_SSJ4.png);
+    margin: auto;
+    width: 31px;
+    height: 48px;
 }
 
 .vegetassj{
-    float: left;
-    margin-right: 6.5em;
-    margin-left: -1.5em;
-    background-image: url(https://www.dragonballdreams.net/images/2013/gifs/perso/gauche/3d81f3333667053d21326eea70c488f7.gif);
-    width: 100px;
-    height: 70px;
+    float: right;
+    background-image: url(../Images/Vegeta_SSJ4.png);
+    width: 29px;
+    height: 48px;
 }
 
 .gohanssj{
-    float: left;
-    margin-right: 6.5em;
-    margin-left: -1.5em;
-    background-image: url(https://www.dragonballdreams.net/images/2013/gifs/perso/gauche/eb16d583fd97758e4d32ea73d2ca2588.gif);
-    width: 100px;
-    height: 100px;
+    float: right;
+    background-image: url(../Images/Gohan.png);
+    width: 36px;
+    height: 67px;
 }
 
 .tapiongif{
-    float: left;
-    margin-right: 6.5em;
-    margin-left: -1.5em;
+    float: right;
     background-image: url(https://www.dragonballdreams.net/images/2013/gifs/perso/gauche/61bbf1fb1f512daf0316b9c32814b1a2.gif);
     width: 100px;
     height: 70px;    
 }
 
 .demonpiccolo{
-    float: left;
-    margin-right: 6.5em;
-    margin-left: -1.5em;
-    background-image: url( https://www.dragonballdreams.net/images/2013/gifs/perso/gauche/c914017d88368ee8a60cb718010d5fa5.gif);
-    width: 100px;
-    height: 70px;
+    float: right;
+    background-image: url(../Images/piccolo.png);
+    width: 36px;
+    height: 58px;
 }
 
+.capvie{
+    float: right;
+    background-image: url(../Images/sante.png);
+    width: 60px;
+    height: 82px;
+}
 
+.capvitesse{
+    float: right;
+    background-image: url(../Images/vitesse.png);
+    width: 60px;
+    height: 82px;
+}
+
+.capatt{
+    float: right;
+    background-image:url(../Images/attaque.png);
+    width: 60px;
+    height: 82px;
+}
+
+.capluck{
+    float: right;
+    background-image:url(../Images/chance.png);
+    width: 60px;
+    height: 82px;
+}
+
+.capmag{
+    float: right;
+    background-image:url(../Images/magie.png);
+    width: 60px;
+    height: 82px;
+}
+
+.ssjgod{
+    float: right;
+    background-image:url(../Images/Gohan.png);
+    width: 36px;
+    height: 67px;
+    
+}
+
+.page-accueil { /*index.html*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#f75252), to(#9e2c2c))!important;
+	-webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-nouveauté { /*nouveaute.html*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#25816F), to(#44A894))!important;
+	-webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-bien-debuter { /*debuter.html*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#B08154), to(#C3A788))!important;
+	-webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-lexique { /*lexique.html*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#f75252), to(#9e2c2c))!important;
+	-webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-planetes { /*planetes.html*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#384D94), to(#4159A5))!important;
+	-webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-entrainements { /*entrainement.html*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#384D94), to(#4159A5))!important;
+	-webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-boosts { /*boosts.html*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#384D94), to(#4159A5))!important;
+	-webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-prix-des-objets { /*prixItem.html*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#5F7D21), to(#7E9B3F))!important;
+	-webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-personnages-parrainage { /*parrainage.html*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#5F7D21), to(#7E9B3F))!important;
+	-webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-personnages-transformations { /*PAGE PAS FAITE*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#832771), to(#CC99FF))!important;
+	-webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-capsule { /*PAGE PAS FAITE*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#832771), to(#CC99FF))!important;
+	-webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-voeux-shenron { /*shenron.html*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#3F8B35), to(#53AA48))!important;
+	-webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-voeux-super-shenron { /*supershenron.html*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#FF6E48), to(#F4CB33))!important;
+	-webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-shenron-rouge { /*shenronrouge.html*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#A31F0E), to(#C74331))!important;
+	-webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-astuce-quete { /*astucesquetes.html*/
+
+    background: -webkit-gradient(linear, left top, left bottom, from(#832771), to(#CC99FF))!important;
+	-webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-competition { /*competitions.html*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#217D2C), to(#54B05F))!important;
+	-webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-xenoverse { /*quetesXeno.html*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#0E7EA3), to(#37A8CD))!important;
+	-webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-mh-classique { /*mhclassique.html*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#832771), to(#CC99FF))!important;
+	-webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-mh-bonus { /*mhbonus.html*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#25816F), to(#44A894))!important;
+	-webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-guerre-février { /*guerrefevrier.html*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#f75252), to(#9e2c2c))!important;
+	-webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-guerre-mars { /*guerremars.html*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#f75252), to(#9e2c2c))!important;
+	-webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-guerre-avril { /*guerreavril.html*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#f75252), to(#9e2c2c))!important;
+	-webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-guerre-mai { /*guerremai.html*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#f75252), to(#9e2c2c))!important;
+	-webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-guerre-juin { /*guerrejuin.html*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#f75252), to(#9e2c2c))!important;
+	-webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-guerre-juillet { /*guerrejuillet.html // PAS FAITE*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#f75252), to(#9e2c2c))!important;
+	-webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
 
 .actuContent{
     margin-left: 2em;
@@ -438,6 +605,7 @@ nav li:hover .submenu{
 
 #quests {
     display: none;
+    text-align: center;
     margin-bottom: 30px;
 }
 

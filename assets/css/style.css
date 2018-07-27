@@ -59,6 +59,193 @@ h3 {
     -webkit-text-fill-color: transparent!important;
 }
 
+.page-accueil { /*index.html*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#f75252), to(#9e2c2c))!important;
+    -webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-nouveauté { /*nouveaute.html*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#25816F), to(#44A894))!important;
+    -webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-bien-debuter { /*debuter.html*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#B08154), to(#C3A788))!important;
+    font-size: 25px;    
+    -webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-lexique { /*lexique.html*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#f75252), to(#9e2c2c))!important;
+    -webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-planetes { /*planetes.html*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#384D94), to(#4159A5))!important;
+    -webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-entrainements { /*entrainement.html*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#384D94), to(#4159A5))!important;
+    -webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-boosts { /*boosts.html*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#384D94), to(#4159A5))!important;
+    -webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-prix-des-objets { /*prixItem.html*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#5F7D21), to(#7E9B3F))!important;
+    -webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-personnages-parrainage { /*parrainage.html*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#5F7D21), to(#7E9B3F))!important;
+    -webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-personnages-transformations { /*PAGE PAS FAITE*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#832771), to(#CC99FF))!important;
+    -webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-capsule { /*PAGE PAS FAITE*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#832771), to(#CC99FF))!important;
+    -webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-voeux-shenron { /*shenron.html*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#3F8B35), to(#53AA48))!important;
+    -webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-voeux-super-shenron { /*supershenron.html*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#FF6E48), to(#F4CB33))!important;
+    -webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-shenron-rouge { /*shenronrouge.html*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#A31F0E), to(#C74331))!important;
+    -webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-astuce-quete { /*astucesquetes.html*/
+
+    background: -webkit-gradient(linear, left top, left bottom, from(#832771), to(#CC99FF))!important;
+    -webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-competition { /*competitions.html*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#217D2C), to(#54B05F))!important;
+    -webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-xenoverse { /*quetesXeno.html*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#0E7EA3), to(#37A8CD))!important;
+    -webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-mh-classique { /*mhclassique.html*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#832771), to(#CC99FF))!important;
+    -webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-mh-bonus { /*mhbonus.html*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#25816F), to(#44A894))!important;
+    -webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-guerre-février { /*guerrefevrier.html*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#f75252), to(#9e2c2c))!important;
+    -webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-guerre-mars { /*guerremars.html*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#f75252), to(#9e2c2c))!important;
+    -webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-guerre-avril { /*guerreavril.html*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#f75252), to(#9e2c2c))!important;
+    -webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-guerre-mai { /*guerremai.html*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#f75252), to(#9e2c2c))!important;
+    -webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-guerre-juin { /*guerrejuin.html*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#f75252), to(#9e2c2c))!important;
+    -webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.page-guerre-juillet { /*guerrejuillet.html // PAS FAITE*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#f75252), to(#9e2c2c))!important;
+    -webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.liste_stat {
+    margin-left:10em;
+    /* si tu peux nous rajouter un cadre comme ça : https://cdn.discordapp.com/attachments/392646465291288577/472412786144706620/unknown.png en un peu plus sombre pour la couleur de fond que ça se démarque un peu */
+}
+
+.zenis{
+    background-image: url(../Images/zenis.gif);
+    width: 20px;
+    height: 20px;
+}
+.puce1{
+    float:left;
+    list-style-type: none; /* on annule la puce par défaut */
+    background-image: url(../Images/hp.png);/* on affiche l'image souhaitée */
+    width:22px;
+    height:13px;
+}
+.puce2{
+    float:left;
+    list-style-type: none; /* on annule la puce par défaut */
+    background-image: url(../Images/ki.png);/* on affiche l'image souhaitée */
+    width:22px;
+    height:13px;
+}
+.puce3{
+    float:left;
+    list-style-type: none; /* on annule la puce par défaut */
+    background-image: url(../Images/frappe.png);/* on affiche l'image souhaitée */
+    width:21px;
+    height:13px;
+}
+.puce4{
+    float:left;
+    list-style-type: none; /* on annule la puce par défaut */
+    background-image: url(../Images/def.png);/* on affiche l'image souhaitée */
+    width:22px;
+    height:13px;
+}
+.puce5{
+    float:left;
+    list-style-type: none; /* on annule la puce par défaut */
+    background-image: url(../Images/chance.png);/* on affiche l'image souhaitée */
+    width:22px;
+    height:13px;
+}
+.puce6{
+    float:left;
+    list-style-type: none; /* on annule la puce par défaut */
+    background-image: url(../Images/vitesse.png);/* on affiche l'image souhaitée */
+    width:21px;
+    height:13px;
+}
+.puce7{
+    float:left;
+    list-style-type: none; /* on annule la puce par défaut */
+    background-image: url(../Images/magie.png);/* on affiche l'image souhaitée */
+    width:21px;
+    height:13px;
+}
+
 div#banner{
     position: relative;
     margin: auto;

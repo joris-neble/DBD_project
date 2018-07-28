@@ -426,7 +426,17 @@ nav li:hover .submenu{
 }
 .zeno{
     float: right;
-    background-image: url(../Images/zeno.png);
+    background-image: url(../Images/Goku.png);
+    width: 72px;
+    height: 71px;
+    
+}
+
+.rajeunir{
+    float: right;
+    background-image: url(../Images/Rajeunir_V2.png);
+    width: 109px;
+    height: 47px;
     
 }
 
@@ -510,16 +520,16 @@ nav li:hover .submenu{
 
 .ssjgod{
     float: right;
-    background-image:url(../Images/Goku.png);
-    width: 72px;
-    height: 71px;
+    background-image:url(../Images/gokussg.png);
+    width: 30px;
+    height: 48px;
     
 }
 .ptbonus{
     float: right;
-    background-image: url(../Images/Point%20bonus.png);
-    width: 21px;
-    height: 13px;
+    background-image: url(../Images/Z.png);
+    width: 24px;
+    height: 22px;
 }
 
 .sanshenron{

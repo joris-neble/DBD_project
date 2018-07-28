@@ -378,6 +378,13 @@ nav li:hover .submenu{
     height: 71px;
 }
 
+.zenis2{
+    float: right;
+    background-image: url(../Images/zenis.gif);
+    width: 20px;
+    height: 20px;
+}
+
 .gokussj{
     float: right;
     background-image: url(../Images/Goku%20SSJ4.png);

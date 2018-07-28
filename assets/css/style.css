@@ -354,101 +354,106 @@ nav li:hover .submenu{
 }
 .culotte{
     float: right;
-    background-image: url(../Images/culotte.gif);
-    width: 28px;
-    height: 26px;
+    background-image: url(../Images/Culotte.png);
+    width: 72px;
+    height: 71px;
+}
+
+.up{
+    float: right;
+    background-image: url(../Images/Up.png);
+    width: 72px;
+    height:71px;
+}
+.zeno{
+    float: right;
+    background-image: url(../Images/zeno.png);
+    
 }
 
 .zenis{
     float: right;
-    background-image: url(../Images/zenis.gif);
-    width: 20px;
-    height: 20px;
-}
-
-.niveauup{
-    float: right;
-    background-image: url(../Images/Goku_SSJ4.png);
-    width: 31px;
-    height:48px;
+    background-image: url(../Images/zenis.png);
+    width: 72px;
+    height: 71px;
 }
 
 .gokussj{
     float: right;
-    background-image: url(../Images/Goku_SSJ4.png);
+    background-image: url(../Images/Goku%20SSJ4.png);
     margin: auto;
-    width: 31px;
-    height: 48px;
+    width: 72px;
+    height: 71px;
 }
 
 .vegetassj{
     float: right;
-    background-image: url(../Images/Vegeta_SSJ4.png);
-    width: 29px;
-    height: 48px;
+    background-image: url(../Images/Vegeta%20SSJ4.png);
+    width: 72px;
+    height: 71px;
 }
 
 .gohanssj{
     float: right;
     background-image: url(../Images/Gohan.png);
-    width: 36px;
-    height: 67px;
+    width: 72px;
+    height: 71px;
 }
 
 .tapiongif{
     float: right;
-    background-image: url("../Images/Tapion.png");
-    width: 25px;
-    height: 70px;    
+    background-image: url("../Images/Tapionn.png");
+    width: 72px;
+    height: 71px;    
 }
 
 .demonpiccolo{
     float: right;
-    background-image: url(../Images/piccolo.png);
-    width: 36px;
-    height: 58px;
+    background-image: url(../Images/Piccolo.png);
+    width: 72px;
+    height: 71px;
 }
 
 .capvie{
     float: right;
-    background-image: url(../Images/sante.png);
-    width: 60px;
-    height: 82px;
+    background-image: url(../Images/Sant%C3%A9.png);
+    width: 72px;
+    height: 71px;
 }
 
 .capvitesse{
     float: right;
     background-image: url(../Images/vitesse.png);
-    width: 60px;
-    height: 82px;
+    width: 72px;
+    height: 71px;
 }
 
 .capatt{
     float: right;
     background-image:url(../Images/attaque.png);
-    width: 60px;
-    height: 82px;
+    width: 72px;
+    height: 71px;
 }
 
 .capluck{
     float: right;
-    background-image:url(../Images/chance.png);
-    width: 60px;
-    height: 82px;
+    background-image:url(../Images/Chance.png);
+    width: 72px;
+    height: 71px;
 }
 
 .capmag{
     float: right;
     background-image:url(../Images/magie.png);
-    width: 60px;
-    height: 82px;
+    width: 72px;
+    height: 71px;
 }
 
 .ssjgod{
     float: right;
     background-image:url(../Images/Goku.png);
-    width: 30px;
-    height: 48px;
+    width: 72px;
+    height: 71px;
     
 }
 .ptbonus{
@@ -486,6 +491,43 @@ nav li:hover .submenu{
     height: 48px;
 }
 
+.lexique-list{
+    font-family: "texte";
+    border-collapse: collapse;
+    margin:auto;
+    text-align: center;
+    border-color: black;
+    border-spacing:0;
+}
+
+
+.lexique-list td{
+    font-size:14px;
+    padding:10px 5px;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+    border-color:black;
+}
+
+.lexiquetitle1{
+    font-size: 20px;
+    font-family: "titres";
+    background: -webkit-gradient(linear, left top, left bottom, from(#f75252), to(#9e2c2c));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.lexiquetitle2{
+    font-size: 20px;
+    font-family: "titres";
+    background: -webkit-gradient(linear, left top, left bottom, from(#f75252), to(#9e2c2c));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
 .acronyme{
     float: right;
     background-image: url("https://img1.lght.pics/7f68c66bc8befaef11d26f097975d221.png");
@@ -507,6 +549,89 @@ nav li:hover .submenu{
     height: 50px;
 }
 
+.planetevegeta{
+    float:right;
+    background-image: url(https://www.dragonballdreams.net/images/2013/monde/mini/data/c81c43de1c9a1d8e19992981def22046.png);
+    width: 25px;
+    height: 20px;
+}
+
+.terre{
+    float:right;
+    background-image: url(https://www.dragonballdreams.net/images/2013/monde/mini/data/ab5c7aaea996414b3645e7c55e1f7dab.png);
+    width: 25px;
+    height: 20px;
+}
+
+.namek{
+    float:right;
+    background-image: url(https://www.dragonballdreams.net/images/2013/monde/mini/data/ccfa4aeab60c5bcd246d7871dd07d89a.png);
+    width: 25px;
+    height: 20px;
+}
+
+.royaumedesmorts{
+    float:right;
+    background-image: url(https://www.dragonballdreams.net/images/2013/monde/mini/data/fcfff1ddf156b36ad167438246049cdf.png);
+    width: 25px;
+    height: 25px;
+}
+
+.kaioshinkai{
+    float:right;
+    background-image: url(https://www.dragonballdreams.net/images/2013/monde/mini/data/85e53a4c40963a79388bab835a21e1fa.png);
+    width: 25px;
+    height: 20px;
+}
+
+.tournoidelautremonde{
+    float:right;
+    background-image: url(https://www.dragonballdreams.net/images/2013/monde/mini/data/e5d7d793f55947043c0a18864c5b883c.png);
+    width: 25px;
+    height: 20px;
+}
+
+.faussenamek{
+    float:right;
+    background-image: url(https://www.dragonballdreams.net/images/2013/monde/mini/data/22b8b2dfd063919c59f23b2377cd939a.png);
+    width: 25px;
+    height: 20px;    
+}
+
+.terrefutur{
+    float:right;
+    background-image: url(https://www.dragonballdreams.net/images/2013/monde/mini/data/3fbc02adca58253fb26795bf4ac4774b.png);
+    width: 25px;
+    height: 20px; 
+}
+
+.nouvellenamek{
+    float:right;
+    background-image: url(https://www.dragonballdreams.net/images/2013/monde/mini/data/a1f6ac88efb8bcff0bc839de3eddcfdd.png);
+    width: 25px;
+    height: 20px;    
+}
+
+.yardrat{
+    float:right;
+    background-image: url(https://www.dragonballdreams.net/images/2013/monde/mini/data/69b2943ac80a6bb4baa17301557f51e4.png);
+    width: 25px;
+    height: 20px;   
+}
+
+.nouvellevegeta{
+    float:right;
+    background-image: url(https://www.dragonballdreams.net/images/2013/monde/mini/data/540b5d71df84f3e89d70b7fc4eeb8faa.png);
+    width: 25px;
+    height: 20px;  
+}
+
+.kannasa{
+    float:right;
+    background-image: url(https://www.dragonballdreams.net/images/2013/monde/mini/data/aeed821bd9a0cb83ec1acbf7d0219890.png);
+    width: 25px;
+    height: 20px; 
+}
 .page-accueil { /*index.html*/
     background: -webkit-gradient(linear, left top, left bottom, from(#f75252), to(#9e2c2c))!important;
 	-webkit-background-clip: text!important;
@@ -673,6 +798,7 @@ nav li:hover .submenu{
     border-style: solid;
     background-color: #EBECE7;
 }
+
 
 a:link{
     text-decoration: none;

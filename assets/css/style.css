@@ -349,6 +349,65 @@ nav li:hover .submenu{
     border-right: 5px solid #4c4940;
 }
 
+.liste_stat {
+	margin-left:10em;
+}
+
+.zenis{
+    background-image: url(../Images/zenis.gif);
+    width: 20px;
+    height: 20px;
+}
+.puce1{
+	float:left;
+    list-style-type: none; /* on annule la puce par défaut */
+    background-image: url(../Images/icoHP.png);/* on affiche l'image souhaitée */
+	width:22px;
+	height:13px;
+}
+.puce2{
+	float:left;
+    list-style-type: none; /* on annule la puce par défaut */
+    background-image: url(../Images/icoKI.png);/* on affiche l'image souhaitée */
+	width:22px;
+	height:13px;
+}
+.puce3{
+	float:left;
+    list-style-type: none; /* on annule la puce par défaut */
+    background-image: url(../Images/frappe.png);/* on affiche l'image souhaitée */
+	width:21px;
+	height:13px;
+}
+.puce4{
+	float:left;
+    list-style-type: none; /* on annule la puce par défaut */
+    background-image: url(../Images/icoDef.png);/* on affiche l'image souhaitée */
+	width:22px;
+	height:13px;
+}
+.puce5{
+	float:left;
+    list-style-type: none; /* on annule la puce par défaut */
+    background-image: url(../Images/icoChance.png);/* on affiche l'image souhaitée */
+	width:22px;
+	height:13px;
+}
+.puce6{
+	float:left;
+    list-style-type: none; /* on annule la puce par défaut */
+    background-image: url(../Images/icovitesse.png);/* on affiche l'image souhaitée */
+	width:21px;
+	height:13px;
+}
+.puce7{
+	float:left;
+    list-style-type: none; /* on annule la puce par défaut */
+    background-image: url(../Images/icomagie.png);/* on affiche l'image souhaitée */
+	width:21px;
+	height:13px;
+}
+
 .wish-list{
     margin-left: 16em;
 }
@@ -376,13 +435,6 @@ nav li:hover .submenu{
     background-image: url(../Images/zenis.png);
     width: 72px;
     height: 71px;
-}
-
-.zenis2{
-    float: right;
-    background-image: url(../Images/zenis.gif);
-    width: 20px;
-    height: 20px;
 }
 
 .gokussj{

@@ -349,29 +349,21 @@ nav li:hover .submenu{
     border-right: 5px solid #4c4940;
 }
 
-#wish-list{
-    text-align: left;
-    margin-left: 15em;
-}
-.wish > span{ 
-    padding-bottom: 0px;
- }
-
-.wish > div{
-    margin-right: 9em;
+.wish-list{
+    margin-left: 16em;
 }
 .culotte{
     float: right;
-    background-image: url(../Images/ackman.png);
-    width: 15px;
-    height: 15px;
+    background-image: url(../Images/culotte.gif);
+    width: 28px;
+    height: 26px;
 }
 
 .zenis{
     float: right;
-    background-image: url(../Images/Goku_SSJ4.png);
-    width: 31px;
-    height: 48px;
+    background-image: url(../Images/zenis.gif);
+    width: 20px;
+    height: 20px;
 }
 
 .niveauup{
@@ -405,8 +397,8 @@ nav li:hover .submenu{
 
 .tapiongif{
     float: right;
-    background-image: url(https://www.dragonballdreams.net/images/2013/gifs/perso/gauche/61bbf1fb1f512daf0316b9c32814b1a2.gif);
-    width: 100px;
+    background-image: url("../Images/Tapion.png");
+    width: 25px;
     height: 70px;    
 }
 
@@ -454,10 +446,65 @@ nav li:hover .submenu{
 
 .ssjgod{
     float: right;
-    background-image:url(../Images/Gohan.png);
-    width: 36px;
-    height: 67px;
+    background-image:url(../Images/Goku.png);
+    width: 30px;
+    height: 48px;
     
+}
+.ptbonus{
+    float: right;
+    background-image: url(../Images/Point%20bonus.png);
+    width: 21px;
+    height: 13px;
+}
+
+.sanshenron{
+    float: right;
+    background-image: url(../Images/San%20shenron.png);
+    width: 38px;
+    height: 40px;
+}
+
+.suushenron{
+    float: right;
+    background-image: url(../Images/Suu%20shenron.png);
+    width: 38px;
+    height: 40px;
+}
+
+.lishenron{
+    float: right;
+    background-image: url(../Images/Li%20shenron.png);
+    width: 30px;
+    height: 51px;
+}
+
+.champa{
+    float: right;
+    background-image: url(../Images/Champa.png);
+    width: 36px;
+    height: 48px;
+}
+
+.acronyme{
+    float: right;
+    background-image: url("https://img1.lght.pics/7f68c66bc8befaef11d26f097975d221.png");
+    width:300px;
+    height: 23px;
+}
+
+.signification{
+    float: right;
+    background-image: url("https://img2.lght.pics/92e096cfda7a910649e49e2e5431eeff.png");
+    width:300px;
+    height: 23px;
+}
+
+.vados{
+    float:right;
+    background-image: url(../Images/Vados.png);
+    width: 33px;
+    height: 50px;
 }
 
 .page-accueil { /*index.html*/

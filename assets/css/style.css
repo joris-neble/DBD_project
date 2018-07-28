@@ -549,6 +549,25 @@ nav li:hover .submenu{
     height: 50px;
 }
 
+.planete-list{
+    font-family: "texte";
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 1em;
+    text-align: center;
+    border-color: black;
+    border-spacing:0;
+}
+.planete-list td{
+    font-size:14px;
+    padding:10px 5px;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+    border-color:black;
+}
+
 .planetevegeta{
     float:right;
     background-image: url(https://www.dragonballdreams.net/images/2013/monde/mini/data/c81c43de1c9a1d8e19992981def22046.png);
@@ -631,6 +650,126 @@ nav li:hover .submenu{
     background-image: url(https://www.dragonballdreams.net/images/2013/monde/mini/data/aeed821bd9a0cb83ec1acbf7d0219890.png);
     width: 25px;
     height: 20px; 
+}
+
+.planetebills{
+    float:right;
+    background-image: url(https://www.dragonballdreams.net/images/2013/monde/mini/data/80706c49321829ef358ffbefc101173d.png);
+    width: 25px;
+    height: 20px;
+}
+
+.terrefuturalt{
+    float:right;
+    background-image: url(https://www.dragonballdreams.net/images/2013/monde/mini/data/41d9cf07dbefb5e8ff249e584a7de5e5.png);
+    width: 25px;
+    height: 20px;
+}
+
+.ileigo{
+    float:right;
+    background-image: url(https://www.dragonballdreams.net/images/2013/monde/mini/data/4e14ab1e1e414ed224282481a3eb316f.png);
+    width: 25px;
+    height: 20px;
+}
+
+.potaufeu{
+    float:right;
+    background-image: url(https://www.dragonballdreams.net/images/2013/monde/mini/data/9ab2904addbac7d5307409288ee896aa.png);
+    width: 18px;
+    height: 18px;
+}
+
+.planetetenebre{
+    float:right;
+    background-image: url(https://www.dragonballdreams.net/images/2013/monde/mini/data/062841c14959a8ccf3038e37b52434f1.png);
+    width: 25px;
+    height: 20px;
+}
+
+.tokitoki{
+    float:right;
+    background-image: url(https://www.dragonballdreams.net/images/2013/monde/mini/data/8f915c9b4afea84182a12bce3dc5f207.png);
+    width: 25px;
+    height: 20px;
+}
+
+.imega{
+    float:right;
+    background-image: url(https://www.dragonballdreams.net/images/2013/monde/mini/data/98a570227a9669a1af0068f8374d4f19.png);
+    width: 25px;
+    height: 20px;
+}
+
+.planetegeants{
+    float:right;
+    background-image: url(https://www.dragonballdreams.net/images/2013/monde/mini/data/d686dacf2e1d5657a28c09e2786b00fd.png);
+    width: 25px;
+    height: 20px;
+}
+
+.kelbo{
+   float:right;
+    background-image: url(https://www.dragonballdreams.net/images/2013/monde/mini/data/571e1393cd9524a83d4df8fba09add3e.png);
+    width: 25px;
+    height: 20px; 
+}
+
+.luude{
+    float:right;
+    background-image: url(https://www.dragonballdreams.net/images/2013/monde/mini/data/824462ced8f775580735678a80be4e23.png);
+    width: 25px;
+    height: 20px; 
+}
+
+.M2{
+    float:right;
+    background-image: url(https://www.dragonballdreams.net/images/2013/monde/mini/data/dd17516aecae2756c19c509b80c322e3.png);
+    width: 25px;
+    height: 20px;
+}
+
+.pital{
+    float:right;
+    background-image: url(https://www.dragonballdreams.net/images/2013/monde/mini/data/80134fbefb91c10df9e165acab52b194.png);
+    width: 25px;
+    height: 20px;
+}
+
+.nouvelletsuful{
+    float:right;
+    background-image: url(https://www.dragonballdreams.net/images/2013/monde/mini/data/9a91f9876c34828ff5f586398c1046a8.png);
+    width: 25px;
+    height: 20px;
+}
+
+.enfer{
+    float:right;
+    background-image: url(https://www.dragonballdreams.net/images/2013/monde/mini/data/776356fbb3786b979c8fdb6ae9e27acf.png);
+    width: 25px;
+    height: 20px;
+}
+
+.ludeze{
+    float:right;
+    background-image: url(https://www.dragonballdreams.net/images/2013/monde/mini/data/5c5fdcea98f2818a28b1220e6e1bb465.png);
+    width: 25px;
+    height: 20px;
+}
+
+.autremonde{
+    float:right;
+    background-image: url(https://www.dragonballdreams.net/images/2013/monde/mini/data/b193376b89f1762b7f07b554e5de0e36.png);
+    width: 25px;
+    height: 20px;
+}
+
+.planetesansnom{
+    float:right;
+    background-image: url(https://www.dragonballdreams.net/images/2013/monde/mini/data/6070d45b26327d8f413aeb060bc45395.png);
+    width: 25px;
+    height: 20px;
+    
 }
 .page-accueil { /*index.html*/
     background: -webkit-gradient(linear, left top, left bottom, from(#f75252), to(#9e2c2c))!important;

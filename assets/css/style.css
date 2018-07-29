@@ -52,13 +52,15 @@ h3{
     -webkit-text-fill-color: transparent;
 }
 
-div#banner{
+#banner{
     position: relative;
+    display: block;
     margin: auto;
+    background-repeat: no-repeat;
     margin-top: -0.5em;
-    background-image: url(../images/banner.png);
-    width: 851px;
-    height: 302px;
+    background-size: cover;
+    width: 1100px;
+    height: auto;
 }
 
 nav > ul{
@@ -79,8 +81,8 @@ nav li{
 nav{
     position: relative;
     margin: auto;
-    font-size: 14px;
-    width: 851px;
+    font-size: 15px;
+    width: 1100px;
     background-color: #4C4940;
     
 }
@@ -142,6 +144,131 @@ nav li:hover .submenu{
     height: 93px;
 }
 
+.personnage-parrainage{
+    font-family: "texte";
+    border-collapse: collapse;
+    margin:auto;
+    text-align: center;
+    border-color: black;
+    border-spacing:0;
+}
+.personnage-parrainage td{
+    font-size:14px;
+    padding:auto;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+    border-color:black;
+}
+
+
+.parrainagetitle1{
+    font-size: 20px;
+    font-family: "titres";
+    background: -webkit-gradient(linear, left top, left bottom, from(#5F7D21), to(#7E9B3F));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.parrainagetitle2{
+    font-size: 20px;
+    font-family: "titres";
+    background: -webkit-gradient(linear, left top, left bottom, from(#5F7D21), to(#7E9B3F));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.botamo{
+	position: relative;
+    background-image: url(../Images/botamo.png);
+    width: 71px;
+	margin: auto;
+    height: 72px;
+}
+.kyabe{
+ 	position: relative;	
+    background-image: url(../Images/kyabe.png);
+    width: 71px;
+	margin: auto;
+    height: 72px;
+}
+.frost{
+	position: relative;
+    background-image: url(../Images/frost.png);
+    width: 71px;
+	margin: auto;
+    height: 72px;
+}
+.magetta{
+	position: relative;
+    background-image: url(../Images/magetta.png);
+    width: 71px;
+	margin: auto;
+    height: 72px;
+}
+
+/* page astuce xeno */
+.xenotitle1{
+    font-size: 20px;
+    font-family: "titres";
+    background: -webkit-gradient(linear, left top, left bottom, from(#0E7EA3), to(#37A8CD));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.xenotitle2{
+    font-size: 20px;
+    font-family: "titres";
+    background: -webkit-gradient(linear, left top, left bottom, from(#0E7EA3), to(#37A8CD));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.xenotitle3{
+    font-size: 20px;
+    font-family: "titres";
+    background: -webkit-gradient(linear, left top, left bottom, from(#0E7EA3), to(#37A8CD));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.xenoContent{
+    margin-left: 2em;
+    margin-right: 2em;
+    font-family: "texte";
+    text-align: left;
+	font-weight: bold;
+}
+
+/* page boosts */
+.boost-liste{
+    font-family: "texte";
+    border-collapse: collapse;
+    margin:auto;
+    text-align: center;
+    border-color: black;
+    border-spacing:0;
+}
+.boost-liste td{
+    font-size:14px;
+    padding:auto;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+    border-color:black;
+}
+.boosttitle1{
+    font-size: 18px;
+    font-family: "titres";
+    background: -webkit-gradient(linear, left top, left bottom, from(#384D94), to(#4159A5));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.boostContent{
+    padding:auto;
+    font-family: "texte";
+    text-align: center;
+	font-weight: bold;
+}
 .questPicture{
     position: relative;
     margin: auto;
@@ -343,7 +470,7 @@ nav li:hover .submenu{
 .miseenpage{
     background-color: #EBECE7;
     margin: auto;
-    width: 851px;
+    width: 1100px;
     border-bottom: 5px solid #4c4940;
     border-left: 5px solid #4c4940;
     border-right: 5px solid #4c4940;
@@ -440,7 +567,7 @@ nav li:hover .submenu{
     
 }
 
-.zenis{
+.zenis{*
     float: right;
     background-image: url(../Images/zenis.png);
     width: 72px;
@@ -637,6 +764,30 @@ nav li:hover .submenu{
     border-color:black;
 }
 
+.train-list{
+    font-family: "texte";
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 1em;
+    text-align: center;
+    border-color: black;
+    border-spacing:0;
+}
+td#position{
+    width: 50px;
+}
+
+
+.train-list td{
+    font-size:9px;
+    font-weight: 900;
+    padding:10px 5px;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+    border-color:black;
+}
 .planetevegeta{
     float:right;
     background-image: url(https://www.dragonballdreams.net/images/2013/monde/mini/data/c81c43de1c9a1d8e19992981def22046.png);
@@ -744,9 +895,9 @@ nav li:hover .submenu{
 
 .potaufeu{
     float:right;
-    background-image: url(https://www.dragonballdreams.net/images/2013/monde/mini/data/9ab2904addbac7d5307409288ee896aa.png);
-    width: 18px;
-    height: 18px;
+    background-image: url(../Images/potaufeu.png);
+    width: 25px;
+    height: 20px;
 }
 
 .planetetenebre{
@@ -1027,6 +1178,15 @@ a:link{
         black 5px);
 }
 
+td.disabled{
+    background: repeating-linear-gradient(
+        45deg,
+        #ffff,
+        darkblue 5px,
+        white 5px,
+        darkblue 5px);
+}
+
 
 input[id^="spoiler"]{
  display: none;
@@ -1073,6 +1233,111 @@ input[id^="spoiler"]:checked + label + .spoiler{
 .quest-data {
     display: none;
     margin: 25px 0;
+}
+
+.att{
+    position: relative;
+    margin: auto;
+    width: 93px;
+    height: 46px;
+}
+
+.def{
+    position: relative;
+    margin: auto;
+    width: 93px;
+    height: 46px;
+}
+
+.ki{
+    position: relative;
+    margin: auto;
+    width: 93px;
+    height: 46px;
+}
+
+.sante{
+    position: relative;
+    margin: auto;
+    width: 93px;
+    height: 46px;
+}
+
+.magie{
+    position: relative;
+    margin: auto;
+    width: 93px;
+    height: 46px;
+}
+
+.vitesse{
+    position: relative;
+    margin: auto;
+    width: 93px;
+    height: 46px;
+}
+
+.chance{
+    position: relative;
+    margin: auto;
+    width: 93px;
+    height: 46px;
+}
+
+td.coloreratt{
+    font-size:12px;
+    font-family: "impact";
+    color: white;
+    text-shadow: 1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, -1px 0 0 black;
+    background-color: #3D85C6; 
+}
+
+td.colorerdef{
+    font-size:12px;
+    font-family: "impact";
+    color: white;
+    text-shadow: 1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, -1px 0 0 black;
+    background-color: #6AA84F;
+}
+
+td.colorerki{
+    font-size:12px;
+    font-family: "impact";
+    color: white;
+    text-shadow: 1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, -1px 0 0 black;
+    background-color: #F1C232;
+}
+
+td.colorersante{
+    font-size:12px;
+    font-family: "impact";
+    color: white;
+    text-shadow: 1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, -1px 0 0 black;
+    background-color: #A61C00;
+}
+
+td.colorermagie{
+    font-size:12px;
+    font-family: "impact";
+    color: white;
+    text-shadow: 1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, -1px 0 0 black;
+    background-color: #674EA7;
+}
+
+td.colorervitesse{
+    font-size:12px;
+    font-family: "impact";
+    color: white;
+    text-shadow: 1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, -1px 0 0 black;
+    background-color: #E69138;
+}
+
+td.colorerchance{
+    font-size:12px;
+    font-family: "impact";
+    color: white;
+    text-shadow: 1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, -1px 0 0 black;
+    background-color: #999999;
 }
 
 .ackman{

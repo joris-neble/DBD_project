@@ -788,6 +788,26 @@ td#position{
     word-break:normal;
     border-color:black;
 }
+
+.prix-list{
+    font-family: "texte";
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 1em;
+    text-align: center;
+    border-color: black;
+    border-spacing:0;
+}
+
+.prix-list td{
+    font-size:15px;
+    padding:10px 5px;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+    border-color:black;
+}
 .planetevegeta{
     float:right;
     background-image: url(https://www.dragonballdreams.net/images/2013/monde/mini/data/c81c43de1c9a1d8e19992981def22046.png);
@@ -1178,7 +1198,7 @@ a:link{
         black 5px);
 }
 
-td.disabled{
+ .train-list td.disabled{
     background: repeating-linear-gradient(
         45deg,
         #ffff,
@@ -1187,6 +1207,23 @@ td.disabled{
         darkblue 5px);
 }
 
+.prix-list td.disabled{
+    background: repeating-linear-gradient(
+        45deg,
+        #ffff,
+        #7E9B3F 5px,
+        white 5px,
+        #7E9B3F 5px);
+}
+
+.guerre-list td.disabled{
+    background: repeating-linear-gradient(
+        45deg,
+        #ffff,
+        red 5px,
+        white 5px,
+        red 5px);
+}
 
 input[id^="spoiler"]{
  display: none;
@@ -1224,6 +1261,144 @@ input[id^="spoiler"]:checked + label + .spoiler{
   height: auto;
   opacity: 1;
   padding: 10px;
+}
+
+.guerre-list{
+    font-family: "texte";
+    border-collapse: collapse;
+    margin:auto;
+    text-align: center;
+    border-color: black;
+    border-spacing:0;
+}
+.guerre-list td{
+	padding:auto;
+	font-size:14px;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+    border-color:black;
+}
+
+@font-face {
+    font-family: 'titrestagclan';
+    src: url(../policy/impact.otf);
+}
+.guerretitle1{
+    font-size: 18px;
+    font-family: "titrestagclan";
+    background: -webkit-gradient(linear, left top, left bottom, from(#f75252), to(#9e2c2c));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	font-weight: bold;
+}
+.guerretitle1{
+    font-size: 18px;
+    font-family: "titrestagclan";
+    background: -webkit-gradient(linear, left top, left bottom, from(#f75252), to(#9e2c2c));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	font-weight: bold;
+}
+.guerrecontent {
+    padding:auto;
+    font-family: "texte";
+    text-align: center;
+	font-weight: bold;
+}
+.warresults {
+	padding:auto;
+    font-family: "texte";
+    text-align: center;
+	font-weight: bold;
+	color: red;
+}
+/* Page INDEX - membres du STAFF bannières */
+#conteneur1
+{
+    display: flex;
+    justify-content: space-around;
+}
+#conteneur2
+{
+    display: flex;
+    justify-content: space-around;
+}
+#conteneur3
+{
+    display: flex;
+    justify-content: space-around;
+}
+.Ragusen{
+ 	position: relative;	
+    background-image: url(../Images/Bannieres_staff_site_drive/Ragusen.png);
+    width: 200px;
+	margin: auto;
+    height: 50px;
+}
+.XBurner{
+ 	position: relative;	
+    background-image: url(../Images/Bannieres_staff_site_drive/XBurner.png);
+    width: 200px;
+	margin: auto;
+    height: 50px;
+}
+.Sephy{
+ 	position: relative;	
+    background-image: url(../Images/Bannieres_staff_site_drive/Sephy.png);
+    width: 200px;
+	margin: auto;
+    height: 50px;
+}
+.Nugoir{
+ 	position: relative;	
+    background-image: url(../Images/Bannieres_staff_site_drive/Nugoir.png);
+    width: 200px;
+	margin: auto;
+    height: 50px;
+}
+.Sekiryutei{
+ 	position: relative;	
+    background-image: url(../Images/Bannieres_staff_site_drive/Sekiryutei.png);
+    width: 200px;
+	margin: auto;
+    height: 50px;
+}
+.Petit-Saiyen{
+ 	position: relative;	
+    background-image: url(../Images/Bannieres_staff_site_drive/Petit-Saiyen.png);
+    width: 200px;
+	margin: auto;
+    height: 50px;
+}
+.Flykiller199{
+ 	position: relative;	
+    background-image: url(../Images/Bannieres_staff_site_drive/Flykiller199.png);
+    width: 200px;
+	margin: auto;
+    height: 50px;
+}
+.Nat777{
+ 	position: relative;	
+    background-image: url(../Images/Bannieres_staff_site_drive/Nat777.png);
+    width: 200px;
+	margin: auto;
+    height: 50px;
+}
+.Kannazuki{
+ 	position: relative;	
+    background-image: url(../Images/Bannieres_staff_site_drive/Kannazuki.png);
+    width: 200px;
+	margin: auto;
+    height: 50px;
+}
+.Natsuro{
+ 	position: relative;	
+    background-image: url(../Images/Bannieres_staff_site_drive/Natsuro.png);
+    width: 200px;
+	margin: auto;
+    height: 50px;
 }
 
 .quetesPers{

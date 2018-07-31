@@ -774,13 +774,31 @@ nav li:hover .submenu{
     border-spacing:0;
 }
 td#position{
-    width: 50px;
+    width: 100px;
 }
 
-
 .train-list td{
-    font-size:9px;
-    font-weight: 900;
+    font-size:10px;
+    padding:10px 5px;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+    border-color:black;
+}
+
+.capsule-list{
+    font-family: "texte";
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 1em;
+    text-align: center;
+    border-color: black;
+    border-spacing:0;  
+}
+
+.capsule-list td{
+    font-size:14px;
     padding:10px 5px;
     border-style:solid;
     border-width:1px;

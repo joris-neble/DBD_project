@@ -847,6 +847,32 @@ td#position{
     word-break:normal;
     border-color:black;
 }
+
+.mhbonus-list{
+    font-family: "texte";
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 1em;
+    text-align: center;
+    border-color: black;
+    border-spacing:0;
+}
+
+.mhbonus-list td{
+    font-size:15px;
+    padding:10px 5px;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+    border-color:black;
+}
+
+#mhbonus{
+    width: 100px;
+}
+
+
 .planetevegeta{
     float:right;
     background-image: url(https://www.dragonballdreams.net/images/2013/monde/mini/data/c81c43de1c9a1d8e19992981def22046.png);

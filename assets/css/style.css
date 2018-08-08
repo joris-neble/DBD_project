@@ -317,6 +317,15 @@ nav li:hover .submenu{
     
 }
 
+.cap{
+    position: relative;
+    margin: auto;
+    background-image:url("../Images/Caps.png");
+    width: 445px;
+    height: 89px;
+    
+}
+
 .entrainement{
     position: relative;
     margin: auto;
@@ -374,7 +383,7 @@ nav li:hover .submenu{
     position: relative;
     margin: auto;
     background-image:url("../Images/guerrejuillet.png");
-    width: 754px;
+    width: 445px;
     height: 89px; 
     
 }
@@ -609,12 +618,16 @@ nav li:hover .submenu{
     width: 72px;
     height: 71px;
 }
-.vie{
-    background-image: url(../Images/Sant%C3%A9.png);
-    width:72px;
-    height: 71px;
+
+.text-compet{
+    font-family: "texte";
+    text-align: center;
 }
 
+.text-train{
+    font-family: "texte";
+    text-align: center;
+}
 
 .capvie{
     float: right;
@@ -781,6 +794,13 @@ nav li:hover .submenu{
 }
 td#position{
     width: 100px;
+}
+
+
+.vie{
+    background-image: url(../Images/Sant%C3%A9.png);
+    width: 72px;
+    height: 71px;
 }
 
 .train-list td{
@@ -1083,7 +1103,7 @@ td#position{
 .planetevide{
     float:right;
     background-image: url(../Images/tdp.png);
-    width: 20px;
+    width: 25px;
     height: 20px;
     
 }

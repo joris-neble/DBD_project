@@ -1,11 +1,10 @@
 jQuery(function($){
 
+	// Affiche le détail d'une quête d'un personnage
 	$('.quest-title').on('click', function(){
 		var divChar = $(this).parent().parent();
 		var questsByChar = $(divChar).find('.quest');
 		var questName = $(this).html();
-
-
 
 		$(questsByChar).each(function(){
 			var currentQuestName = $($(this).children()[0]);
@@ -18,17 +17,17 @@ jQuery(function($){
 			}
 		});
 
-
 		$(this).next().toggle('hide');
 	});
 
+	// Afficher toutes les quêtes d'un personnage
 	$('th a').on('click', function(e){
 		e.preventDefault();
 		var id = $(this).attr('href').substr(1);
 		var $divChar = $('#'+id);
 		var $titleQuests = $('#quests-title');
 
-		var char = {
+		var chars = {
 			'ackman' : 'Ackman',
             'baddack': 'Baddack',
             'baddacktb' : 'Baddack [Time Breaker]',
@@ -51,7 +50,7 @@ jQuery(function($){
 			'dodoria' : 'Dodoria',
 			'fermer' : 'Fermier',
 			'freezer' : 'Freezer',
-			'Garlic' : 'Garlic',
+			'garlic' : 'Garlic',
 			'ginyu' : 'Ginue',
 			'guldo' : 'Guldo', 
 			'jaco' : 'Jaco',
@@ -124,16 +123,19 @@ jQuery(function($){
 		];
 
 		var de = function(){
-			if (jQuery.inArray(char[charName][0], voyelle) == '-1') {
+			if (jQuery.inArray(chars[charName][0], voyelle) == '-1') {
 				return 'de ';
 			} else {
 				return 'd\'';
 			}
 		};
 
-		var titleContent = 'Quête'+s+' '+de();
-		titleContent += char[charName];
+		var titleContent = 'Quête'+s+' '+de()+chars[charName];
 		
+		console.log($('#hide-all-quests').length);
+		if( $('#hide-all-quests').length > 0 ) {
+			return;
+		}
 		$($titleQuests).html(titleContent);
 		$('#quests').show();
 		$('#'+id).toggle('show');
@@ -144,4 +146,37 @@ jQuery(function($){
 	});
 
 
+	// Affiche toutes les quêtes de tous les personnages
+	$('#display-all-quests').on('click', function() {
+		if ($(this).hasClass('active')) {
+			$(this).html('Afficher toutes les quêtes').removeClass('active');
+		} else {
+			$(this).html('Masquer toutes les quêtes').addClass('active');
+		}
+
+
+		$('#quests').toggle();
+		$('#quests').find('div').each(function() {
+			if( $(this).attr('id') != null) {
+				$(this).toggle();
+			}
+		});
+
+		$('html, body').animate({
+			scrollTop: $('#quests').offset().top
+		}, 2000);
+	});
+
+	$('body').on('click', '#hide-all-quests', function() {
+		$(this).toggleClass('active');
+		$(this).attr('id', 'display-all-quests');
+		$(this).html('Afficher toutes les quêtes');
+
+		$('#quests').hide();
+		$('#quests').find('div').each(function() {
+			if( $(this).attr('id') != null) {
+				$(this).hide();
+			}
+		});
+	});
 });

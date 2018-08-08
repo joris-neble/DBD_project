@@ -609,6 +609,12 @@ nav li:hover .submenu{
     width: 72px;
     height: 71px;
 }
+.vie{
+    background-image: url(../Images/Sant%C3%A9.png);
+    width:72px;
+    height: 71px;
+}
+
 
 .capvie{
     float: right;
@@ -793,7 +799,6 @@ td#position{
     margin: auto;
     margin-top: 1em;
     text-align: center;
-    border-color: black;
     border-spacing:0;  
 }
 
@@ -802,8 +807,6 @@ td#position{
     padding:10px 5px;
     border-style:solid;
     border-width:1px;
-    overflow:hidden;
-    word-break:normal;
     border-color:black;
 }
 .competition-list{
@@ -1079,9 +1082,8 @@ td#position{
 
 .planetevide{
     float:right;
-    background-image: url(https://www.dragonballdreams.net/images/2013/monde/mini/data/02b92d32ca5263a6ae42533c035273a4.png);
-    background-image:
-    width: 25px;
+    background-image: url(../Images/tdp.png);
+    width: 20px;
     height: 20px;
     
 }

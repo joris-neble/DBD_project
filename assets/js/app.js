@@ -98,7 +98,8 @@ jQuery(function($){
 			'videl' : 'Videl',
 			'whis': 'Whis',
 			'yamcha' : 'Yamcha',
-			'yamchaado' : 'Yamcha Ado'
+			'yamchaado' : 'Yamcha Ado',
+            'prologue' : 'prologue'
 		};
 
 

@@ -908,9 +908,6 @@ td#position{
         black 5px);
 }
 
-
-
-
 .planetevegeta{
     float:right;
     background-image: url(https://www.dragonballdreams.net/images/2013/monde/mini/data/c81c43de1c9a1d8e19992981def22046.png);
@@ -1290,21 +1287,16 @@ td#position{
 }
 
 .colorerfacile{
-    background-color: dodgerblue;
-    color: white;
-    text-shadow: 1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, -1px 0 0 black;
+    color: darkcyan;
 }
 
 .colorerdur{
-    background-color: orange;
-    color: white;
-    text-shadow: 1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, -1px 0 0 black;
+
+    color: darkorange;
 }
 
 .colorerextreme{
-    background-color: darkred;
-    color: white;
-    text-shadow: 1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, -1px 0 0 black;
+    color: darkred;
 }
 
 a:link{
@@ -1314,7 +1306,7 @@ a:link{
 .hautdepage{
     position: fixed;
     right: 1.5em;
-    bottom: 1em;
+    bottom: 2em;
 }
 
 .quetes td.disabled{
@@ -2241,6 +2233,8 @@ td.colorerchance{
 #sangohanpetit1, #sangoku1, #sangokupetit1, #sangoten1, #sangotenado1,
 #satan1, #taopaipai1, #tapion1, #tarble1, #tenshinhan1, #thales1, #toma1,
 #tortuegeniale1, #trunksxeno1, #trunksdufutur1, #trunkspetit1, #vasha1,
-#vegeta1, #videl1, #whis1, #yamcha1, #yamchaado1,#prologue,#sagasaiyen,#sagaretour,#sagaginue,#sagafreezer,#sagacell, #sagafutur, #sagaboo, #sagabills, #sagademigra, #sagamasque, #sagatowa, #sagamira, #sagafuu{
+#vegeta1, #videl1, #whis1, #yamcha1, #yamchaado1,#prologue,#sagasaiyen,
+#sagaretour,#sagaginue,#sagafreezer,#sagacell, #sagafutur, #sagaboo,
+#sagabills, #sagademigra, #sagamasque, #sagatowa, #sagamira, #sagafuu{
     display: none;
 }

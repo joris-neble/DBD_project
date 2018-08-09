@@ -624,6 +624,10 @@ nav li:hover .submenu{
     text-align: center;
 }
 
+.xeno{
+    text-align: center;
+}
+
 .text-train{
     font-family: "texte";
     text-align: center;
@@ -2209,6 +2213,6 @@ td.colorerchance{
 #sangohanpetit1, #sangoku1, #sangokupetit1, #sangoten1, #sangotenado1,
 #satan1, #taopaipai1, #tapion1, #tarble1, #tenshinhan1, #thales1, #toma1,
 #tortuegeniale1, #trunksxeno1, #trunksdufutur1, #trunkspetit1, #vasha1,
-#vegeta1, #videl1, #whis1, #yamcha1, #yamchaado1 {
+#vegeta1, #videl1, #whis1, #yamcha1, #yamchaado1,#prologue,#sagasaiyen,#sagaretour,#sagaginue,#sagafreezer,#sagacell, #sagafutur, #sagaboo, #sagabills, #sagademigra, #sagamasque, #sagatowa, #sagamira, #sagafuu{
     display: none;
 }

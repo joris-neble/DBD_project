@@ -29,7 +29,7 @@ body{
 
 div#banner, .actualites, nav{
     border-left: 5px solid #4c4940;
-    border-right: 5px solid #4c4940;
+    border-right: px solid #4c4940;
     box-shadow: 0px 0px 10px #33322e;
     -moz-box-shadow: 0px 0px 10px #33322e;
     -o-box-shadow: 0px 0px 10px #33322e;
@@ -60,7 +60,6 @@ h3{
     position: relative;
     display: block;
     margin: auto;
-    margin-top: -0.5em;
     width: 851px;
     height: auto;
 }

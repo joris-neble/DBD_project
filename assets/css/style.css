@@ -182,28 +182,28 @@ nav li:hover .submenu{
 
 .botamo{
 	position: relative;
-    background-image: url(../Images/botamo.png);
+    background-image: url(../Images/Botamo.png);
     width: 71px;
 	margin: auto;
     height: 72px;
 }
 .kyabe{
  	position: relative;	
-    background-image: url(../Images/kyabe.png);
+    background-image: url(../Images/Kyabe.png);
     width: 71px;
 	margin: auto;
     height: 72px;
 }
 .frost{
 	position: relative;
-    background-image: url(../Images/frost.png);
+    background-image: url(../Images/Frost.png);
     width: 71px;
 	margin: auto;
     height: 72px;
 }
 .magetta{
 	position: relative;
-    background-image: url(../Images/magetta.png);
+    background-image: url(../Images/Magetta.png);
     width: 71px;
 	margin: auto;
     height: 72px;
@@ -472,7 +472,7 @@ nav li:hover .submenu{
     height: 89px; 
 }
 .remerciement{
-    background-image: url(../Images/Credits2.png);
+    background-image: url(../Images/Bannieres_staff_site_drive/credits.png);
     margin: auto;
     width: 806px;
     height: 172px;
@@ -577,9 +577,16 @@ nav li:hover .submenu{
     
 }
 
-.zenis{*
+.zenis{
     float: right;
     background-image: url(../Images/zenis.png);
+    width: 72px;
+    height: 71px;
+}
+
+.zenis15{
+    float: right;
+    background-image: url(../Images/15_M.png);
     width: 72px;
     height: 71px;
 }
@@ -615,7 +622,7 @@ nav li:hover .submenu{
 
 .demonpiccolo{
     float: right;
-    background-image: url(../Images/Piccolo.png);
+    background-image: url(../Images/piccolo.png);
     width: 72px;
     height: 71px;
 }
@@ -657,7 +664,7 @@ nav li:hover .submenu{
 
 .capluck{
     float: right;
-    background-image:url(../Images/Chance.png);
+    background-image:url(../Images/chance.png);
     width: 72px;
     height: 71px;
 }
@@ -671,44 +678,44 @@ nav li:hover .submenu{
 
 .ssjgod{
     float: right;
-    background-image:url(../Images/gokussg.png);
-    width: 30px;
-    height: 48px;
+    background-image:url(../Images/Goku_God.png);
+    width: 72px;
+    height: 71px;
     
 }
 .ptbonus{
     float: right;
     background-image: url(../Images/Z.png);
-    width: 24px;
-    height: 22px;
+    width: 71px;
+    height: 72px;
 }
 
 .sanshenron{
     float: right;
     background-image: url(../Images/San%20shenron.png);
-    width: 38px;
-    height: 40px;
+    width: 71px;
+    height: 72px;
 }
 
 .suushenron{
     float: right;
     background-image: url(../Images/Suu%20shenron.png);
-    width: 38px;
-    height: 40px;
+    width: 71px;
+    height: 72px;
 }
 
 .lishenron{
     float: right;
     background-image: url(../Images/Li%20shenron.png);
-    width: 30px;
-    height: 51px;
+    width: 71px;
+    height: 72px;
 }
 
 .champa{
     float: right;
     background-image: url(../Images/Champa.png);
-    width: 36px;
-    height: 48px;
+    width: 71px;
+    height: 72px;
 }
 
 .lexique-list{
@@ -765,8 +772,8 @@ nav li:hover .submenu{
 .vados{
     float:right;
     background-image: url(../Images/Vados.png);
-    width: 33px;
-    height: 50px;
+    width: 71px;
+    height: 72px;
 }
 
 .planete-list{
@@ -847,6 +854,7 @@ td#position{
 .competition-list td{
     font-size:12px;
     padding:10px 5px;
+    font-weight: 900;
     border-style:solid;
     border-width:1px;
     overflow:hidden;
@@ -1457,63 +1465,63 @@ input[id^="spoiler"]:checked + label + .spoiler{
 }
 .Ragusen{
  	position: relative;	
-    background-image: url(../Images/Bannieres_staff_site_drive/Ragusen.png);
+    background-image: url("https://www.dragonballdreams.net/images/2013/joueur/avatar/3ae3fe099b0570d15a3e45e1d3bb89c9.png?3245");
     width: 200px;
 	margin: auto;
     height: 50px;
 }
 .XBurner{
  	position: relative;	
-    background-image: url(../Images/Bannieres_staff_site_drive/XBurner.png);
+    background-image: url("https://www.dragonballdreams.net/images/2013/joueur/avatar/6c1a0cf9821fcb7920a0d50c544bacc1.png?3163");
     width: 200px;
 	margin: auto;
     height: 50px;
 }
 .Sephy{
  	position: relative;	
-    background-image: url(../Images/Bannieres_staff_site_drive/Sephy.png);
+    background-image: url("https://www.dragonballdreams.net/images/2013/joueur/avatar/5e30cbe36efc600f281c7e28c6a38cf6.png?3847");
     width: 200px;
 	margin: auto;
     height: 50px;
 }
 .Nugoir{
  	position: relative;	
-    background-image: url(../Images/Bannieres_staff_site_drive/Nugoir.png);
+    background-image: url("https://www.dragonballdreams.net/images/2013/joueur/avatar/6884a6aebde66e120b15367191860d8a.png?3985");
     width: 200px;
 	margin: auto;
     height: 50px;
 }
 .Sekiryutei{
  	position: relative;	
-    background-image: url(../Images/Bannieres_staff_site_drive/Sekiryutei.png);
+    background-image: url("https://www.dragonballdreams.net/images/2013/joueur/avatar/3c9446afe1f49319b849c59da4c89cd7.png?3050");
     width: 200px;
 	margin: auto;
     height: 50px;
 }
 .Petit-Saiyen{
  	position: relative;	
-    background-image: url(../Images/Bannieres_staff_site_drive/Petit-Saiyen.png);
+    background-image: url("https://www.dragonballdreams.net/images/2013/joueur/avatar/b0bc9b8307a554f7c642eb1fa7ec18f5.png?3003");
     width: 200px;
 	margin: auto;
     height: 50px;
 }
 .Flykiller199{
  	position: relative;	
-    background-image: url(../Images/Bannieres_staff_site_drive/Flykiller199.png);
+    background-image: url("https://www.dragonballdreams.net/images/2013/joueur/avatar/5e319cab016ee14048c1900b70f4c89b.png?3284");
     width: 200px;
 	margin: auto;
     height: 50px;
 }
 .Nat777{
  	position: relative;	
-    background-image: url(../Images/Bannieres_staff_site_drive/Nat777.png);
+    background-image: url("https://www.dragonballdreams.net/images/2013/joueur/avatar/9923a0b05253bf0466ac5631e7c9dd74.png?3137");
     width: 200px;
 	margin: auto;
     height: 50px;
 }
 .Kannazuki{
  	position: relative;	
-    background-image: url(../Images/Bannieres_staff_site_drive/Kannazuki.png);
+    background-image: url("https://www.dragonballdreams.net/images/2013/joueur/avatar/b4181a55fd6e9981eefd7255bfb6629d.png?3744");
     width: 200px;
 	margin: auto;
     height: 50px;

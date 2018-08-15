@@ -24,7 +24,12 @@ body{
 }
 
 .image-mh{
-    text-align: center;
+    margin-left: 20.5em;
+}
+
+.mh-text{
+    margin-left: 22.5em;
+    font-family: "texte";
 }
 
 div#banner, .actualites, nav{
@@ -232,10 +237,7 @@ nav li:hover .submenu{
     -webkit-text-fill-color: transparent;
 }
 .xenoContent{
-    margin-left: 2em;
-    margin-right: 2em;
     font-family: "texte";
-    text-align: left;
 	font-weight: bold;
 }
 
@@ -2219,13 +2221,16 @@ td.colorerchance{
     width: 184px;
     height: 57px;
 }
-
 .yamchaado{
     position: relative;
     background-image: url(../Images/Quetes/Yamcha%20Ado.png);
     margin: auto;
     width: 184px;
     height: 57px;
+}
+
+.picturexeno{
+    margin-left: 12.55em;
 }
 
 #ackman1, #baddack1, #baddack2, #bills1, #bojack1, #boo1, #boo2, #bora1,

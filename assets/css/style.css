@@ -409,29 +409,31 @@ nav li:hover .submenu{
     
 }
 
+
 .normal{
     position: relative;
-    margin-left: 19em;
-    margin-top: 1em;
+    float: left;
+    margin-left: 14em;
     background-image: url(../Images/Normale.png);
-    width: 240px;
-    height: 359px;
+    width: 114px;
+    height: 334px;
 }
 
 .hard{
     position: relative;
-    margin-left: 19em;
+    float: left;
+    margin-left: 1em;
     background-image: url(../Images/Hard.png);
-    width: 240px;
-    height: 359px;
+    width: 114px;
+    height: 334px;
 }
 
 .extreme{
-    margin-left: 19em;
     position: relative;
+    margin-left: 1em;
     background-image: url(../Images/Extreme.png);
-    width: 240px;
-    height: 359px;
+    width:114px;
+    height: 334px;
 }
 
 .competitions{
@@ -584,6 +586,10 @@ nav li:hover .submenu{
 .wish-list{
     margin-left: 16em;
 }
+
+.wish{
+    margin-left: 1em;
+}
 .culotte{
     float: right;
     background-image: url(../Images/Culotte.png);
@@ -618,6 +624,11 @@ nav li:hover .submenu{
     background-image: url(../Images/zenis.png);
     width: 72px;
     height: 71px;
+}
+
+.text-voeux{
+    text-align: justify;
+    font-family: "texte";
 }
 
 .zenis15{
@@ -664,6 +675,7 @@ nav li:hover .submenu{
 }
 
 .text-compet{
+    display: block;
     font-family: "texte";
     text-align: center;
 }
@@ -929,7 +941,6 @@ td#position{
     border-color: black;
     border-spacing:0;
 }
-
 .mhbonus-list td{
     font-size:15px;
     padding:10px 5px;
@@ -1195,7 +1206,8 @@ td#position{
 	-webkit-background-clip: text!important;
     -webkit-text-fill-color: transparent!important;
 }
-.page-prix-des-objets { /*prixItem.html*/
+.
+{ /*prixItem.html*/
     background: -webkit-gradient(linear, left top, left bottom, from(#5F7D21), to(#7E9B3F))!important;
 	-webkit-background-clip: text!important;
     -webkit-text-fill-color: transparent!important;
@@ -1319,6 +1331,10 @@ td#position{
     margin-bottom: 30px;
 }
 
+#display-all-quests{
+    display: block;
+    margin:auto;
+}
 #quests-title {
     font-size: 34px;
 }
@@ -1336,7 +1352,6 @@ td#position{
     border-style: solid;
     background-color: #EBECE7;
 }
-
 .colorerfacile{
     color: darkcyan;
 }

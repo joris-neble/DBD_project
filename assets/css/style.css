@@ -400,6 +400,40 @@ nav li:hover .submenu{
     
 }
 
+.guerreaout{
+    position: relative;
+    margin: auto;
+    background-image:url("../Images/Aout.png");
+    width: 754px;
+    height: 89px; 
+    
+}
+
+.normal{
+    position: relative;
+    margin-left: 19em;
+    margin-top: 1em;
+    background-image: url(../Images/Normale.png);
+    width: 240px;
+    height: 359px;
+}
+
+.hard{
+    position: relative;
+    margin-left: 19em;
+    background-image: url(../Images/Hard.png);
+    width: 240px;
+    height: 359px;
+}
+
+.extreme{
+    margin-left: 19em;
+    position: relative;
+    background-image: url(../Images/Extreme.png);
+    width: 240px;
+    height: 359px;
+}
+
 .competitions{
     position: relative;
     margin: auto;
@@ -1258,6 +1292,16 @@ td#position{
     margin-right: 2em;
     font-family: "texte";
     text-align: justify;
+}
+.actucenter{
+    margin-left: 15em;
+    font-family: "texte";
+    text-align: justify;
+}
+
+.sign{
+    font-family: "texte";
+    margin-left: 19.5em;
 }
 
 .personnage{
